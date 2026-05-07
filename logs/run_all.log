@@ -1,0 +1,436 @@
+[04:10:50] === TIER-1: Full Training (opt_all) ===
+2026-05-05 04:10:55,079 - httpx - [32m[1mINFO[0m - HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-base-patch32/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-05-05 04:10:55,127 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-05-05 04:10:55,179 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/chat_template.json "HTTP/1.1 404 Not Found"
+2026-05-05 04:10:55,228 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-05-05 04:10:55,228 - huggingface_hub.utils._http - [33m[1mWARNING[0m - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-05-05 04:10:55,279 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/audio_tokenizer_config.json "HTTP/1.1 404 Not Found"
+2026-05-05 04:10:55,329 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-05-05 04:10:55,378 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-05 04:10:55,397 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/openai/clip-vit-base-patch32/3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268/preprocessor_config.json "HTTP/1.1 200 OK"
+2026-05-05 04:10:55,442 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-05-05 04:10:55,488 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-05 04:10:55,505 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/openai/clip-vit-base-patch32/3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268/preprocessor_config.json "HTTP/1.1 200 OK"
+2026-05-05 04:10:55,555 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-05 04:10:55,573 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/openai/clip-vit-base-patch32/3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268/config.json "HTTP/1.1 200 OK"
+2026-05-05 04:10:55,630 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-05 04:10:55,647 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/openai/clip-vit-base-patch32/3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-05-05 04:10:55,698 - httpx - [32m[1mINFO[0m - HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-base-patch32/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-05-05 04:10:55,747 - httpx - [32m[1mINFO[0m - HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-base-patch32/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-05-05 04:10:55,966 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/gpt2/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-05-05 04:10:56,011 - httpx - [32m[1mINFO[0m - HTTP Request: GET https://huggingface.co/api/models/gpt2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-05-05 04:10:56,059 - httpx - [32m[1mINFO[0m - HTTP Request: GET https://huggingface.co/api/models/openai-community/gpt2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-05-05 04:10:56,109 - httpx - [32m[1mINFO[0m - HTTP Request: GET https://huggingface.co/api/models/gpt2/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-05-05 04:10:56,161 - httpx - [32m[1mINFO[0m - HTTP Request: GET https://huggingface.co/api/models/openai-community/gpt2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-05-05 04:11:03,479 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-05 04:11:03,496 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/openai/clip-vit-base-patch32/3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268/config.json "HTTP/1.1 200 OK"
+2026-05-05 04:11:03,546 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2026-05-05 04:11:03,594 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+2026-05-05 04:11:03,651 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/pytorch_model.bin "HTTP/1.1 302 Found"
+2026-05-05 04:11:03,699 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2026-05-05 04:11:03,751 - httpx - [32m[1mINFO[0m - HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-base-patch32 "HTTP/1.1 200 OK"
+2026-05-05 04:11:03,817 - httpx - [32m[1mINFO[0m - HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-base-patch32/commits/main "HTTP/1.1 200 OK"
+2026-05-05 04:11:03,897 - httpx - [32m[1mINFO[0m - HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-base-patch32/discussions?p=0 "HTTP/1.1 200 OK"
+2026-05-05 04:11:03,959 - httpx - [32m[1mINFO[0m - HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-base-patch32/commits/refs%2Fpr%2F66 "HTTP/1.1 200 OK"
+2026-05-05 04:11:04,009 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/refs%2Fpr%2F66/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+2026-05-05 04:11:04,056 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/refs%2Fpr%2F66/model.safetensors "HTTP/1.1 302 Found"
+
+[GCP / GPU Environment]
+  Python  : 3.10.12
+  PyTorch : 2.9.1+cu128
+  CUDA available: True
+  GPU name : NVIDIA L4
+  SM       : 8.9  (Ampere+)
+  VRAM     : 22.0 GB
+  BF16 ok  : True
+  CUDA ver : 12.8
+  SDPA/Flash: AVAILABLE
+======================================================================
+NanoChat-V Training: opt_all
+  device=cuda  AMP=True (bf16)
+  compile=False  workers=8
+  pin_memory=True  non_blocking=True
+  GPU: NVIDIA L4  SM=8.9  VRAM=22573 MB
+======================================================================
+Experiment dir: checkpoints/opt_all
+Loading CLIPProcessor and GPT2Tokenizer …
+Building DataLoaders …
+  Train batches/epoch: 14786
+  Val batches:         625
+  Total training steps: 14786
+Building NanoChatVisionModel …
+Padding vocab_size from 50257 to 50304 for efficiency
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 20733.45it/s]
+[transformers] [1mCLIPVisionModel LOAD REPORT[0m from: openai/clip-vit-base-patch32
+Key                                                          | Status     |  | 
+-------------------------------------------------------------+------------+--+-
+text_model.encoder.layers.{0...11}.self_attn.v_proj.weight   | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.layer_norm1.bias          | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.layer_norm2.bias          | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.k_proj.weight   | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.v_proj.bias     | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.out_proj.weight | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.k_proj.bias     | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.mlp.fc1.weight            | UNEXPECTED |  | 
+logit_scale                                                  | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.layer_norm1.weight        | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.mlp.fc2.bias              | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.q_proj.bias     | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.mlp.fc1.bias              | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.q_proj.weight   | UNEXPECTED |  | 
+text_projection.weight                                       | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.mlp.fc2.weight            | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.layer_norm2.weight        | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.out_proj.bias   | UNEXPECTED |  | 
+text_model.embeddings.position_embedding.weight              | UNEXPECTED |  | 
+text_model.embeddings.token_embedding.weight                 | UNEXPECTED |  | 
+text_model.final_layer_norm.weight                           | UNEXPECTED |  | 
+text_model.final_layer_norm.bias                             | UNEXPECTED |  | 
+visual_projection.weight                                     | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+  Total params: 493,265,810
+  Trainable:    405,809,810
+  Frozen (CLIP): 87,456,000
+  Trainable params: 405,809,810  (decay=105 tensors, no-decay=16 tensors)
+
+Starting training …
+
+ep=00  step=    0  loss=10.8265 (10.8265)  ppl=50338.9  lr=1.50e-06  grad_norm=3.538  sps=4.7  dl=541.1ms  h2d=1.3ms  fwd=887.5ms  bwd=82.3ms  opt=190.8ms  iter=1706.5ms  peak_mem=6023MB
+ep=00  step=   50  loss=9.2672 (10.3719)  ppl=10585.1  lr=7.65e-05  grad_norm=4.407  sps=42.9  dl=0.4ms  h2d=0.5ms  fwd=45.2ms  bwd=36.6ms  opt=107.5ms  iter=190.7ms  peak_mem=6027MB
+ep=00  step=  100  loss=6.7159 (7.3389)  ppl=825.4  lr=1.51e-04  grad_norm=2.682  sps=42.8  dl=0.4ms  h2d=0.5ms  fwd=44.3ms  bwd=36.1ms  opt=107.5ms  iter=189.2ms  peak_mem=6027MB
+ep=00  step=  150  loss=5.3412 (5.6876)  ppl=208.8  lr=2.26e-04  grad_norm=2.620  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=45.3ms  bwd=36.8ms  opt=107.5ms  iter=191.0ms  peak_mem=6027MB
+ep=00  step=  200  loss=4.3338 (5.0367)  ppl=76.2  lr=3.00e-04  grad_norm=2.377  sps=42.8  dl=0.4ms  h2d=0.5ms  fwd=43.5ms  bwd=36.7ms  opt=107.6ms  iter=189.1ms  peak_mem=6027MB
+ep=00  step=  250  loss=4.5827 (4.9080)  ppl=97.8  lr=3.00e-04  grad_norm=2.265  sps=42.8  dl=0.4ms  h2d=0.5ms  fwd=43.1ms  bwd=35.7ms  opt=107.5ms  iter=187.5ms  peak_mem=6027MB
+ep=00  step=  300  loss=4.6248 (4.7999)  ppl=102.0  lr=3.00e-04  grad_norm=2.472  sps=42.8  dl=0.4ms  h2d=0.5ms  fwd=43.1ms  bwd=35.5ms  opt=107.5ms  iter=187.4ms  peak_mem=6027MB
+ep=00  step=  350  loss=5.2074 (4.5662)  ppl=182.6  lr=3.00e-04  grad_norm=2.547  sps=41.8  dl=0.4ms  h2d=0.5ms  fwd=44.0ms  bwd=36.7ms  opt=107.7ms  iter=189.7ms  peak_mem=6027MB
+ep=00  step=  400  loss=4.3985 (4.4068)  ppl=81.3  lr=3.00e-04  grad_norm=2.275  sps=42.3  dl=0.4ms  h2d=0.5ms  fwd=43.3ms  bwd=36.2ms  opt=107.5ms  iter=188.4ms  peak_mem=6027MB
+ep=00  step=  450  loss=4.2800 (4.3506)  ppl=72.2  lr=3.00e-04  grad_norm=2.566  sps=42.8  dl=0.4ms  h2d=0.5ms  fwd=43.1ms  bwd=36.0ms  opt=107.5ms  iter=187.9ms  peak_mem=6027MB
+ep=00  step=  500  loss=5.1838 (4.1481)  ppl=178.4  lr=3.00e-04  grad_norm=2.522  sps=42.8  dl=0.4ms  h2d=0.5ms  fwd=43.5ms  bwd=36.8ms  opt=107.6ms  iter=189.1ms  peak_mem=6027MB
+ep=00  step=  550  loss=3.5842 (4.2333)  ppl=36.0  lr=3.00e-04  grad_norm=2.444  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.1ms  bwd=36.4ms  opt=107.5ms  iter=188.4ms  peak_mem=6027MB
+ep=00  step=  600  loss=3.9402 (4.2079)  ppl=51.4  lr=2.99e-04  grad_norm=2.197  sps=42.5  dl=0.4ms  h2d=0.5ms  fwd=43.1ms  bwd=36.6ms  opt=107.5ms  iter=188.6ms  peak_mem=6027MB
+ep=00  step=  650  loss=4.6181 (4.1572)  ppl=101.3  lr=2.99e-04  grad_norm=2.564  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.1ms  bwd=36.8ms  opt=107.6ms  iter=188.7ms  peak_mem=6027MB
+ep=00  step=  700  loss=4.3722 (4.0585)  ppl=79.2  lr=2.99e-04  grad_norm=2.337  sps=42.8  dl=0.4ms  h2d=0.5ms  fwd=43.5ms  bwd=37.1ms  opt=107.6ms  iter=189.5ms  peak_mem=6027MB
+ep=00  step=  750  loss=4.4981 (4.0284)  ppl=89.8  lr=2.99e-04  grad_norm=2.270  sps=42.0  dl=0.4ms  h2d=0.5ms  fwd=43.1ms  bwd=36.1ms  opt=107.5ms  iter=188.0ms  peak_mem=6027MB
+ep=00  step=  800  loss=4.3498 (4.0199)  ppl=77.5  lr=2.99e-04  grad_norm=2.343  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=42.8ms  bwd=35.8ms  opt=107.5ms  iter=187.4ms  peak_mem=6027MB
+ep=00  step=  850  loss=5.5481 (4.0529)  ppl=256.7  lr=2.99e-04  grad_norm=2.383  sps=42.4  dl=0.4ms  h2d=0.5ms  fwd=43.1ms  bwd=36.4ms  opt=107.5ms  iter=188.3ms  peak_mem=6027MB
+ep=00  step=  900  loss=3.2878 (3.9685)  ppl=26.8  lr=2.98e-04  grad_norm=2.209  sps=42.8  dl=0.4ms  h2d=0.5ms  fwd=43.1ms  bwd=36.2ms  opt=107.5ms  iter=188.1ms  peak_mem=6027MB
+ep=00  step=  950  loss=4.2408 (3.9108)  ppl=69.5  lr=2.98e-04  grad_norm=2.382  sps=42.8  dl=0.4ms  h2d=0.5ms  fwd=43.3ms  bwd=36.4ms  opt=107.5ms  iter=188.5ms  peak_mem=6027MB
+ep=00  step= 1000  loss=4.1579 (3.7954)  ppl=63.9  lr=2.98e-04  grad_norm=2.442  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=44.1ms  bwd=35.9ms  opt=107.6ms  iter=188.8ms  peak_mem=6027MB
+ep=00  step= 1050  loss=4.5396 (3.9009)  ppl=93.7  lr=2.97e-04  grad_norm=2.611  sps=42.5  dl=0.4ms  h2d=0.5ms  fwd=43.2ms  bwd=35.8ms  opt=107.5ms  iter=187.6ms  peak_mem=6027MB
+ep=00  step= 1100  loss=3.5603 (3.8619)  ppl=35.2  lr=2.97e-04  grad_norm=2.366  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.0ms  bwd=35.9ms  opt=107.5ms  iter=187.7ms  peak_mem=6027MB
+ep=00  step= 1150  loss=3.4666 (3.8481)  ppl=32.0  lr=2.97e-04  grad_norm=2.265  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.4ms  bwd=35.8ms  opt=107.6ms  iter=188.0ms  peak_mem=6027MB
+ep=00  step= 1200  loss=5.1362 (3.7362)  ppl=170.1  lr=2.97e-04  grad_norm=2.424  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.3ms  bwd=36.2ms  opt=107.5ms  iter=188.3ms  peak_mem=6027MB
+ep=00  step= 1250  loss=3.3065 (3.8076)  ppl=27.3  lr=2.96e-04  grad_norm=2.233  sps=42.8  dl=0.4ms  h2d=0.5ms  fwd=43.7ms  bwd=36.3ms  opt=107.6ms  iter=189.0ms  peak_mem=6027MB
+ep=00  step= 1300  loss=4.9435 (3.8509)  ppl=140.3  lr=2.96e-04  grad_norm=2.557  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.9ms  bwd=36.2ms  opt=107.6ms  iter=189.0ms  peak_mem=6027MB
+ep=00  step= 1350  loss=3.2876 (3.6244)  ppl=26.8  lr=2.95e-04  grad_norm=2.202  sps=42.9  dl=0.4ms  h2d=0.5ms  fwd=44.6ms  bwd=36.2ms  opt=107.6ms  iter=189.6ms  peak_mem=6027MB
+ep=00  step= 1400  loss=3.3674 (3.7635)  ppl=29.0  lr=2.95e-04  grad_norm=2.256  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.2ms  bwd=35.6ms  opt=107.5ms  iter=187.6ms  peak_mem=6027MB
+ep=00  step= 1450  loss=3.4057 (3.7073)  ppl=30.1  lr=2.95e-04  grad_norm=2.390  sps=42.8  dl=0.4ms  h2d=0.5ms  fwd=42.9ms  bwd=35.8ms  opt=107.5ms  iter=187.5ms  peak_mem=6027MB
+ep=00  step= 1500  loss=3.7462 (3.5516)  ppl=42.4  lr=2.94e-04  grad_norm=2.203  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.0ms  bwd=35.9ms  opt=107.6ms  iter=187.7ms  peak_mem=6027MB
+ep=00  step= 1550  loss=3.8574 (3.6701)  ppl=47.3  lr=2.94e-04  grad_norm=2.257  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.8ms  bwd=35.8ms  opt=107.6ms  iter=188.4ms  peak_mem=6027MB
+ep=00  step= 1600  loss=4.7854 (3.7458)  ppl=119.8  lr=2.93e-04  grad_norm=2.379  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.4ms  bwd=36.7ms  opt=107.5ms  iter=188.9ms  peak_mem=6027MB
+ep=00  step= 1650  loss=3.2915 (3.5828)  ppl=26.9  lr=2.93e-04  grad_norm=2.269  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.4ms  bwd=35.7ms  opt=107.6ms  iter=187.9ms  peak_mem=6027MB
+ep=00  step= 1700  loss=3.3913 (3.5671)  ppl=29.7  lr=2.92e-04  grad_norm=2.260  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.4ms  bwd=35.8ms  opt=107.5ms  iter=188.0ms  peak_mem=6027MB
+ep=00  step= 1750  loss=3.3656 (3.5092)  ppl=29.0  lr=2.92e-04  grad_norm=2.258  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.0ms  bwd=36.1ms  opt=107.6ms  iter=187.9ms  peak_mem=6027MB
+ep=00  step= 1800  loss=3.5144 (3.5886)  ppl=33.6  lr=2.91e-04  grad_norm=2.141  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.8ms  bwd=36.1ms  opt=107.5ms  iter=188.7ms  peak_mem=6027MB
+ep=00  step= 1850  loss=3.5483 (3.6379)  ppl=34.8  lr=2.91e-04  grad_norm=2.459  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.7ms  bwd=36.0ms  opt=107.6ms  iter=188.5ms  peak_mem=6027MB
+ep=00  step= 1900  loss=3.4984 (3.5565)  ppl=33.1  lr=2.90e-04  grad_norm=2.100  sps=41.3  dl=0.4ms  h2d=0.5ms  fwd=43.4ms  bwd=36.3ms  opt=107.5ms  iter=188.5ms  peak_mem=6027MB
+ep=00  step= 1950  loss=3.7947 (3.6272)  ppl=44.5  lr=2.89e-04  grad_norm=2.241  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.6ms  bwd=36.1ms  opt=107.6ms  iter=188.5ms  peak_mem=6027MB
+ep=00  step= 2000  loss=4.3266 (3.6509)  ppl=75.7  lr=2.89e-04  grad_norm=2.650  sps=42.0  dl=0.4ms  h2d=0.5ms  fwd=45.0ms  bwd=36.2ms  opt=107.6ms  iter=190.1ms  peak_mem=6027MB
+ep=00  step= 2050  loss=2.9240 (3.4982)  ppl=18.6  lr=2.88e-04  grad_norm=2.147  sps=39.8  dl=0.4ms  h2d=0.5ms  fwd=45.1ms  bwd=36.4ms  opt=107.6ms  iter=190.4ms  peak_mem=6027MB
+ep=00  step= 2100  loss=4.2018 (3.5675)  ppl=66.8  lr=2.88e-04  grad_norm=2.423  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=44.5ms  bwd=36.8ms  opt=107.6ms  iter=190.3ms  peak_mem=6027MB
+ep=00  step= 2150  loss=3.8492 (3.4128)  ppl=47.0  lr=2.87e-04  grad_norm=2.405  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.1ms  bwd=36.5ms  opt=107.6ms  iter=188.5ms  peak_mem=6027MB
+ep=00  step= 2200  loss=3.3400 (3.5187)  ppl=28.2  lr=2.86e-04  grad_norm=2.226  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.6ms  bwd=36.4ms  opt=107.8ms  iter=189.1ms  peak_mem=6027MB
+ep=00  step= 2250  loss=3.0174 (3.5286)  ppl=20.4  lr=2.86e-04  grad_norm=2.127  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.7ms  bwd=35.9ms  opt=107.6ms  iter=188.5ms  peak_mem=6027MB
+ep=00  step= 2300  loss=2.9519 (3.5931)  ppl=19.1  lr=2.85e-04  grad_norm=2.163  sps=42.4  dl=0.4ms  h2d=0.5ms  fwd=44.2ms  bwd=37.2ms  opt=107.7ms  iter=190.4ms  peak_mem=6027MB
+ep=00  step= 2350  loss=4.0001 (3.5111)  ppl=54.6  lr=2.84e-04  grad_norm=2.495  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.4ms  bwd=36.0ms  opt=107.5ms  iter=188.1ms  peak_mem=6027MB
+ep=00  step= 2400  loss=3.2641 (3.5856)  ppl=26.2  lr=2.83e-04  grad_norm=2.531  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.3ms  bwd=36.1ms  opt=107.5ms  iter=188.3ms  peak_mem=6027MB
+ep=00  step= 2450  loss=3.3477 (3.3023)  ppl=28.4  lr=2.83e-04  grad_norm=2.364  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.4ms  bwd=36.5ms  opt=107.6ms  iter=188.7ms  peak_mem=6027MB
+ep=00  step= 2500  loss=3.7947 (3.4841)  ppl=44.5  lr=2.82e-04  grad_norm=2.595  sps=40.8  dl=0.4ms  h2d=0.5ms  fwd=43.2ms  bwd=37.2ms  opt=107.6ms  iter=189.3ms  peak_mem=6027MB
+ep=00  step= 2550  loss=3.4108 (3.4331)  ppl=30.3  lr=2.81e-04  grad_norm=2.340  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.3ms  bwd=35.9ms  opt=107.5ms  iter=188.0ms  peak_mem=6027MB
+ep=00  step= 2600  loss=3.7781 (3.3655)  ppl=43.7  lr=2.80e-04  grad_norm=2.448  sps=42.5  dl=0.4ms  h2d=0.5ms  fwd=43.5ms  bwd=36.4ms  opt=107.6ms  iter=188.7ms  peak_mem=6027MB
+ep=00  step= 2650  loss=3.3909 (3.5287)  ppl=29.7  lr=2.80e-04  grad_norm=2.221  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.4ms  bwd=36.7ms  opt=107.6ms  iter=189.0ms  peak_mem=6027MB
+ep=00  step= 2700  loss=3.2979 (3.3403)  ppl=27.1  lr=2.79e-04  grad_norm=2.367  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.5ms  bwd=36.6ms  opt=107.5ms  iter=188.9ms  peak_mem=6027MB
+ep=00  step= 2750  loss=3.3675 (3.4206)  ppl=29.0  lr=2.78e-04  grad_norm=2.290  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.2ms  bwd=36.6ms  opt=107.5ms  iter=188.6ms  peak_mem=6027MB
+ep=00  step= 2800  loss=3.6413 (3.4449)  ppl=38.1  lr=2.77e-04  grad_norm=2.312  sps=42.8  dl=0.4ms  h2d=0.5ms  fwd=43.4ms  bwd=36.4ms  opt=107.5ms  iter=188.5ms  peak_mem=6027MB
+ep=00  step= 2850  loss=2.9699 (3.4063)  ppl=19.5  lr=2.76e-04  grad_norm=2.392  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.7ms  bwd=36.5ms  opt=107.6ms  iter=189.1ms  peak_mem=6027MB
+ep=00  step= 2900  loss=3.5599 (3.4574)  ppl=35.2  lr=2.75e-04  grad_norm=2.366  sps=41.1  dl=0.4ms  h2d=0.5ms  fwd=43.8ms  bwd=36.3ms  opt=107.5ms  iter=188.9ms  peak_mem=6027MB
+ep=00  step= 2950  loss=3.5028 (3.4164)  ppl=33.2  lr=2.74e-04  grad_norm=2.341  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.2ms  bwd=37.1ms  opt=107.6ms  iter=189.1ms  peak_mem=6027MB
+ep=00  step= 3000  loss=3.5990 (3.4616)  ppl=36.6  lr=2.74e-04  grad_norm=2.291  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.5ms  bwd=36.9ms  opt=107.5ms  iter=189.1ms  peak_mem=6027MB
+ep=00  step= 3050  loss=4.3050 (3.4299)  ppl=74.1  lr=2.73e-04  grad_norm=2.478  sps=40.8  dl=0.4ms  h2d=0.5ms  fwd=43.6ms  bwd=36.6ms  opt=107.6ms  iter=189.0ms  peak_mem=6027MB
+ep=00  step= 3100  loss=3.8057 (3.3890)  ppl=45.0  lr=2.72e-04  grad_norm=2.578  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.5ms  bwd=36.2ms  opt=107.6ms  iter=188.6ms  peak_mem=6027MB
+ep=00  step= 3150  loss=3.5885 (3.3415)  ppl=36.2  lr=2.71e-04  grad_norm=2.607  sps=42.8  dl=0.4ms  h2d=0.5ms  fwd=44.8ms  bwd=36.2ms  opt=107.6ms  iter=189.8ms  peak_mem=6027MB
+ep=00  step= 3200  loss=3.6552 (3.4286)  ppl=38.7  lr=2.70e-04  grad_norm=2.505  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=44.0ms  bwd=36.7ms  opt=107.6ms  iter=189.6ms  peak_mem=6027MB
+ep=00  step= 3250  loss=3.1790 (3.4143)  ppl=24.0  lr=2.69e-04  grad_norm=2.466  sps=42.4  dl=0.4ms  h2d=0.5ms  fwd=43.8ms  bwd=35.7ms  opt=107.6ms  iter=188.4ms  peak_mem=6027MB
+ep=00  step= 3300  loss=3.3438 (3.3606)  ppl=28.3  lr=2.68e-04  grad_norm=2.319  sps=41.6  dl=0.4ms  h2d=0.5ms  fwd=43.5ms  bwd=36.4ms  opt=107.6ms  iter=188.7ms  peak_mem=6027MB
+ep=00  step= 3350  loss=2.3879 (3.3728)  ppl=10.9  lr=2.67e-04  grad_norm=2.013  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.3ms  bwd=36.0ms  opt=107.6ms  iter=188.1ms  peak_mem=6027MB
+ep=00  step= 3400  loss=3.8578 (3.2524)  ppl=47.4  lr=2.66e-04  grad_norm=2.214  sps=42.8  dl=0.4ms  h2d=0.5ms  fwd=42.9ms  bwd=35.8ms  opt=107.5ms  iter=187.5ms  peak_mem=6027MB
+ep=00  step= 3450  loss=3.1324 (3.2056)  ppl=22.9  lr=2.65e-04  grad_norm=2.197  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=42.8ms  bwd=35.8ms  opt=107.5ms  iter=187.3ms  peak_mem=6027MB
+ep=00  step= 3500  loss=3.3010 (3.3475)  ppl=27.1  lr=2.64e-04  grad_norm=2.351  sps=42.8  dl=0.4ms  h2d=0.5ms  fwd=43.1ms  bwd=35.6ms  opt=107.5ms  iter=187.5ms  peak_mem=6027MB
+ep=00  step= 3550  loss=4.0312 (3.3841)  ppl=56.3  lr=2.63e-04  grad_norm=2.505  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.0ms  bwd=35.9ms  opt=107.5ms  iter=187.7ms  peak_mem=6027MB
+ep=00  step= 3600  loss=3.6471 (3.3691)  ppl=38.4  lr=2.62e-04  grad_norm=2.306  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.2ms  bwd=35.8ms  opt=107.5ms  iter=187.7ms  peak_mem=6027MB
+ep=00  step= 3650  loss=3.7319 (3.3678)  ppl=41.8  lr=2.60e-04  grad_norm=2.726  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=42.9ms  bwd=36.0ms  opt=107.5ms  iter=187.6ms  peak_mem=6027MB
+ep=00  step= 3700  loss=2.8986 (3.3062)  ppl=18.1  lr=2.59e-04  grad_norm=2.394  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.3ms  bwd=35.8ms  opt=107.6ms  iter=187.9ms  peak_mem=6027MB
+ep=00  step= 3750  loss=3.4392 (3.3790)  ppl=31.2  lr=2.58e-04  grad_norm=2.572  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.1ms  bwd=35.9ms  opt=107.5ms  iter=187.8ms  peak_mem=6027MB
+ep=00  step= 3800  loss=4.2268 (3.4066)  ppl=68.5  lr=2.57e-04  grad_norm=2.550  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.2ms  bwd=35.9ms  opt=107.6ms  iter=188.0ms  peak_mem=6027MB
+ep=00  step= 3850  loss=3.4972 (3.3494)  ppl=33.0  lr=2.56e-04  grad_norm=2.530  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.6ms  bwd=35.9ms  opt=107.6ms  iter=188.4ms  peak_mem=6027MB
+ep=00  step= 3900  loss=4.7009 (3.3913)  ppl=110.0  lr=2.55e-04  grad_norm=2.422  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=44.7ms  bwd=36.2ms  opt=107.7ms  iter=189.8ms  peak_mem=6027MB
+ep=00  step= 3950  loss=2.8658 (3.2238)  ppl=17.6  lr=2.54e-04  grad_norm=2.363  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.2ms  bwd=36.1ms  opt=107.6ms  iter=188.2ms  peak_mem=6027MB
+ep=00  step= 4000  loss=2.9584 (3.3509)  ppl=19.3  lr=2.52e-04  grad_norm=2.143  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=44.3ms  bwd=35.9ms  opt=107.6ms  iter=189.1ms  peak_mem=6027MB
+ep=00  step= 4050  loss=3.1170 (3.4861)  ppl=22.6  lr=2.51e-04  grad_norm=2.487  sps=41.4  dl=0.4ms  h2d=0.5ms  fwd=43.3ms  bwd=36.1ms  opt=107.5ms  iter=188.2ms  peak_mem=6027MB
+ep=00  step= 4100  loss=4.2092 (3.3313)  ppl=67.3  lr=2.50e-04  grad_norm=2.647  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.8ms  bwd=36.0ms  opt=107.5ms  iter=188.6ms  peak_mem=6027MB
+ep=00  step= 4150  loss=3.0466 (3.4021)  ppl=21.0  lr=2.49e-04  grad_norm=2.433  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=45.5ms  bwd=36.1ms  opt=107.6ms  iter=190.5ms  peak_mem=6027MB
+ep=00  step= 4200  loss=3.0557 (3.2531)  ppl=21.2  lr=2.48e-04  grad_norm=2.404  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=44.3ms  bwd=36.3ms  opt=107.7ms  iter=189.6ms  peak_mem=6027MB
+ep=00  step= 4250  loss=2.7258 (3.3702)  ppl=15.3  lr=2.46e-04  grad_norm=2.198  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.1ms  bwd=36.0ms  opt=107.6ms  iter=187.9ms  peak_mem=6027MB
+ep=00  step= 4300  loss=3.1841 (3.2245)  ppl=24.1  lr=2.45e-04  grad_norm=2.322  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.9ms  bwd=36.6ms  opt=107.6ms  iter=189.4ms  peak_mem=6027MB
+ep=00  step= 4350  loss=3.2715 (3.3008)  ppl=26.3  lr=2.44e-04  grad_norm=2.356  sps=42.5  dl=0.4ms  h2d=0.5ms  fwd=43.8ms  bwd=36.8ms  opt=107.6ms  iter=189.4ms  peak_mem=6027MB
+ep=00  step= 4400  loss=3.3529 (3.2496)  ppl=28.6  lr=2.43e-04  grad_norm=2.442  sps=42.5  dl=0.4ms  h2d=0.5ms  fwd=43.2ms  bwd=36.1ms  opt=107.6ms  iter=188.1ms  peak_mem=6027MB
+ep=00  step= 4450  loss=3.3935 (3.3200)  ppl=29.8  lr=2.41e-04  grad_norm=2.363  sps=42.8  dl=0.4ms  h2d=0.5ms  fwd=43.3ms  bwd=36.8ms  opt=107.6ms  iter=188.9ms  peak_mem=6027MB
+ep=00  step= 4500  loss=2.6059 (3.1631)  ppl=13.5  lr=2.40e-04  grad_norm=2.313  sps=42.8  dl=0.4ms  h2d=0.5ms  fwd=43.1ms  bwd=35.9ms  opt=107.5ms  iter=187.8ms  peak_mem=6027MB
+ep=00  step= 4550  loss=4.0048 (3.2476)  ppl=54.9  lr=2.39e-04  grad_norm=2.453  sps=42.8  dl=0.4ms  h2d=0.5ms  fwd=43.2ms  bwd=35.9ms  opt=107.5ms  iter=187.9ms  peak_mem=6027MB
+ep=00  step= 4600  loss=3.1624 (3.3402)  ppl=23.6  lr=2.38e-04  grad_norm=2.310  sps=41.8  dl=0.4ms  h2d=0.5ms  fwd=43.0ms  bwd=35.7ms  opt=107.5ms  iter=187.5ms  peak_mem=6027MB
+ep=00  step= 4650  loss=3.6596 (3.2893)  ppl=38.8  lr=2.36e-04  grad_norm=2.482  sps=42.5  dl=0.4ms  h2d=0.5ms  fwd=42.9ms  bwd=35.9ms  opt=107.6ms  iter=187.7ms  peak_mem=6027MB
+ep=00  step= 4700  loss=3.3142 (3.2469)  ppl=27.5  lr=2.35e-04  grad_norm=2.406  sps=42.1  dl=0.4ms  h2d=0.5ms  fwd=43.6ms  bwd=36.3ms  opt=107.6ms  iter=188.7ms  peak_mem=6027MB
+ep=00  step= 4750  loss=3.7706 (3.2650)  ppl=43.4  lr=2.34e-04  grad_norm=2.420  sps=42.8  dl=0.4ms  h2d=0.5ms  fwd=44.4ms  bwd=36.6ms  opt=107.6ms  iter=189.9ms  peak_mem=6027MB
+ep=00  step= 4800  loss=2.0268 (3.2846)  ppl=7.6  lr=2.32e-04  grad_norm=2.029  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.3ms  bwd=36.5ms  opt=107.6ms  iter=188.7ms  peak_mem=6027MB
+ep=00  step= 4850  loss=4.1162 (3.3021)  ppl=61.3  lr=2.31e-04  grad_norm=2.260  sps=41.3  dl=0.4ms  h2d=0.5ms  fwd=43.9ms  bwd=36.4ms  opt=107.6ms  iter=189.1ms  peak_mem=6027MB
+ep=00  step= 4900  loss=3.2194 (3.1801)  ppl=25.0  lr=2.29e-04  grad_norm=2.233  sps=42.8  dl=0.4ms  h2d=0.5ms  fwd=43.0ms  bwd=36.7ms  opt=107.5ms  iter=188.5ms  peak_mem=6027MB
+ep=00  step= 4950  loss=3.0833 (3.3358)  ppl=21.8  lr=2.28e-04  grad_norm=2.529  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.6ms  bwd=37.8ms  opt=107.8ms  iter=190.4ms  peak_mem=6027MB
+ep=00  step= 5000  loss=3.1735 (3.1226)  ppl=23.9  lr=2.27e-04  grad_norm=2.425  sps=41.4  dl=0.4ms  h2d=0.5ms  fwd=43.4ms  bwd=36.1ms  opt=107.6ms  iter=188.4ms  peak_mem=6027MB
+ep=00  step= 5050  loss=3.6212 (3.1981)  ppl=37.4  lr=2.25e-04  grad_norm=2.468  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.8ms  bwd=37.2ms  opt=107.6ms  iter=189.9ms  peak_mem=6027MB
+ep=00  step= 5100  loss=2.6714 (3.2365)  ppl=14.5  lr=2.24e-04  grad_norm=2.235  sps=42.8  dl=0.4ms  h2d=0.5ms  fwd=43.0ms  bwd=35.7ms  opt=107.5ms  iter=187.5ms  peak_mem=6027MB
+ep=00  step= 5150  loss=2.6831 (3.2889)  ppl=14.6  lr=2.22e-04  grad_norm=2.286  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.4ms  bwd=36.0ms  opt=107.6ms  iter=188.2ms  peak_mem=6027MB
+ep=00  step= 5200  loss=2.9181 (3.1799)  ppl=18.5  lr=2.21e-04  grad_norm=2.420  sps=42.5  dl=0.4ms  h2d=0.5ms  fwd=43.3ms  bwd=36.6ms  opt=107.6ms  iter=188.8ms  peak_mem=6027MB
+ep=00  step= 5250  loss=2.7936 (3.0940)  ppl=16.3  lr=2.20e-04  grad_norm=2.351  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=44.1ms  bwd=36.3ms  opt=107.6ms  iter=189.2ms  peak_mem=6027MB
+ep=00  step= 5300  loss=2.5188 (3.1685)  ppl=12.4  lr=2.18e-04  grad_norm=2.136  sps=41.9  dl=0.4ms  h2d=0.5ms  fwd=43.8ms  bwd=36.1ms  opt=107.6ms  iter=188.9ms  peak_mem=6027MB
+ep=00  step= 5350  loss=3.8039 (3.2409)  ppl=44.9  lr=2.17e-04  grad_norm=2.615  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=44.1ms  bwd=35.8ms  opt=107.7ms  iter=188.8ms  peak_mem=6027MB
+ep=00  step= 5400  loss=3.2116 (3.0896)  ppl=24.8  lr=2.15e-04  grad_norm=2.363  sps=41.5  dl=0.4ms  h2d=0.5ms  fwd=44.5ms  bwd=36.1ms  opt=107.6ms  iter=189.6ms  peak_mem=6027MB
+ep=00  step= 5450  loss=2.4070 (3.3027)  ppl=11.1  lr=2.14e-04  grad_norm=2.186  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.6ms  bwd=36.0ms  opt=107.6ms  iter=188.5ms  peak_mem=6027MB
+ep=00  step= 5500  loss=3.6807 (3.2104)  ppl=39.7  lr=2.12e-04  grad_norm=2.271  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=44.6ms  bwd=35.9ms  opt=107.6ms  iter=189.4ms  peak_mem=6027MB
+ep=00  step= 5550  loss=2.7682 (3.1821)  ppl=15.9  lr=2.11e-04  grad_norm=2.338  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.4ms  bwd=35.8ms  opt=107.5ms  iter=187.9ms  peak_mem=6027MB
+ep=00  step= 5600  loss=2.9176 (3.1917)  ppl=18.5  lr=2.09e-04  grad_norm=2.500  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.1ms  bwd=36.3ms  opt=107.5ms  iter=188.2ms  peak_mem=6027MB
+ep=00  step= 5650  loss=3.4994 (3.2718)  ppl=33.1  lr=2.08e-04  grad_norm=2.428  sps=42.8  dl=0.4ms  h2d=0.5ms  fwd=43.0ms  bwd=36.1ms  opt=107.5ms  iter=188.0ms  peak_mem=6027MB
+ep=00  step= 5700  loss=3.1753 (3.2497)  ppl=23.9  lr=2.06e-04  grad_norm=2.468  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.2ms  bwd=35.8ms  opt=107.5ms  iter=187.7ms  peak_mem=6027MB
+ep=00  step= 5750  loss=3.6123 (3.2338)  ppl=37.1  lr=2.05e-04  grad_norm=2.274  sps=41.6  dl=0.4ms  h2d=0.5ms  fwd=43.8ms  bwd=35.8ms  opt=107.6ms  iter=188.5ms  peak_mem=6027MB
+ep=00  step= 5800  loss=2.9191 (3.2472)  ppl=18.5  lr=2.03e-04  grad_norm=2.159  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.4ms  bwd=36.0ms  opt=107.6ms  iter=188.1ms  peak_mem=6027MB
+ep=00  step= 5850  loss=4.7528 (3.2258)  ppl=115.9  lr=2.02e-04  grad_norm=3.045  sps=38.6  dl=0.4ms  h2d=0.5ms  fwd=43.7ms  bwd=36.2ms  opt=107.6ms  iter=188.8ms  peak_mem=6027MB
+ep=00  step= 5900  loss=3.1351 (3.2640)  ppl=23.0  lr=2.00e-04  grad_norm=2.382  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.9ms  bwd=36.6ms  opt=107.6ms  iter=189.4ms  peak_mem=6027MB
+ep=00  step= 5950  loss=4.0068 (3.2126)  ppl=55.0  lr=1.99e-04  grad_norm=2.579  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.6ms  bwd=36.5ms  opt=107.6ms  iter=189.0ms  peak_mem=6027MB
+ep=00  step= 6000  loss=3.6699 (3.1851)  ppl=39.2  lr=1.97e-04  grad_norm=2.403  sps=42.8  dl=0.4ms  h2d=0.5ms  fwd=43.5ms  bwd=35.8ms  opt=107.5ms  iter=188.1ms  peak_mem=6027MB
+ep=00  step= 6050  loss=3.6593 (3.1837)  ppl=38.8  lr=1.96e-04  grad_norm=2.437  sps=42.1  dl=0.4ms  h2d=0.5ms  fwd=43.6ms  bwd=36.1ms  opt=107.6ms  iter=188.5ms  peak_mem=6027MB
+ep=00  step= 6100  loss=2.5083 (3.3055)  ppl=12.3  lr=1.94e-04  grad_norm=2.157  sps=42.0  dl=0.4ms  h2d=0.5ms  fwd=43.8ms  bwd=36.7ms  opt=107.6ms  iter=189.4ms  peak_mem=6027MB
+ep=00  step= 6150  loss=3.3212 (3.1602)  ppl=27.7  lr=1.93e-04  grad_norm=2.691  sps=42.5  dl=0.4ms  h2d=0.5ms  fwd=43.2ms  bwd=36.0ms  opt=107.6ms  iter=188.1ms  peak_mem=6027MB
+ep=00  step= 6200  loss=2.8470 (3.1120)  ppl=17.2  lr=1.91e-04  grad_norm=2.427  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.8ms  bwd=36.1ms  opt=107.6ms  iter=188.7ms  peak_mem=6027MB
+ep=00  step= 6250  loss=3.1840 (3.0933)  ppl=24.1  lr=1.90e-04  grad_norm=2.719  sps=42.5  dl=0.4ms  h2d=0.5ms  fwd=43.8ms  bwd=36.1ms  opt=107.6ms  iter=188.8ms  peak_mem=6027MB
+ep=00  step= 6300  loss=3.3903 (3.1556)  ppl=29.7  lr=1.88e-04  grad_norm=2.538  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.4ms  bwd=35.6ms  opt=107.6ms  iter=188.0ms  peak_mem=6027MB
+ep=00  step= 6350  loss=2.7954 (3.1188)  ppl=16.4  lr=1.87e-04  grad_norm=2.083  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.2ms  bwd=35.8ms  opt=107.6ms  iter=187.8ms  peak_mem=6027MB
+ep=00  step= 6400  loss=2.4771 (3.0487)  ppl=11.9  lr=1.85e-04  grad_norm=2.200  sps=40.4  dl=0.4ms  h2d=0.5ms  fwd=43.6ms  bwd=36.1ms  opt=107.6ms  iter=188.7ms  peak_mem=6027MB
+ep=00  step= 6450  loss=2.5601 (3.1895)  ppl=12.9  lr=1.83e-04  grad_norm=2.340  sps=40.7  dl=0.4ms  h2d=0.5ms  fwd=43.7ms  bwd=36.2ms  opt=107.6ms  iter=188.8ms  peak_mem=6027MB
+ep=00  step= 6500  loss=2.8232 (3.0891)  ppl=16.8  lr=1.82e-04  grad_norm=2.177  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.6ms  bwd=35.9ms  opt=107.5ms  iter=188.3ms  peak_mem=6027MB
+ep=00  step= 6550  loss=3.6711 (3.0568)  ppl=39.3  lr=1.80e-04  grad_norm=2.407  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.1ms  bwd=35.7ms  opt=107.5ms  iter=187.6ms  peak_mem=6027MB
+ep=00  step= 6600  loss=3.2351 (3.1125)  ppl=25.4  lr=1.79e-04  grad_norm=2.477  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=44.9ms  bwd=36.2ms  opt=107.6ms  iter=190.0ms  peak_mem=6027MB
+ep=00  step= 6650  loss=2.4163 (3.1083)  ppl=11.2  lr=1.77e-04  grad_norm=2.111  sps=42.8  dl=0.4ms  h2d=0.5ms  fwd=45.1ms  bwd=36.1ms  opt=107.6ms  iter=190.1ms  peak_mem=6027MB
+ep=00  step= 6700  loss=2.8339 (3.0237)  ppl=17.0  lr=1.75e-04  grad_norm=2.425  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=45.5ms  bwd=36.9ms  opt=107.7ms  iter=191.4ms  peak_mem=6027MB
+ep=00  step= 6750  loss=3.2942 (3.0174)  ppl=27.0  lr=1.74e-04  grad_norm=2.383  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.7ms  bwd=35.7ms  opt=107.6ms  iter=188.2ms  peak_mem=6027MB
+ep=00  step= 6800  loss=3.1827 (3.1541)  ppl=24.1  lr=1.72e-04  grad_norm=2.224  sps=41.0  dl=0.4ms  h2d=0.5ms  fwd=43.8ms  bwd=35.7ms  opt=107.6ms  iter=188.4ms  peak_mem=6027MB
+ep=00  step= 6850  loss=3.0739 (3.1735)  ppl=21.6  lr=1.71e-04  grad_norm=2.722  sps=42.5  dl=0.4ms  h2d=0.5ms  fwd=43.9ms  bwd=36.8ms  opt=107.7ms  iter=189.7ms  peak_mem=6027MB
+ep=00  step= 6900  loss=3.1142 (3.0402)  ppl=22.5  lr=1.69e-04  grad_norm=2.355  sps=42.8  dl=0.4ms  h2d=0.5ms  fwd=44.1ms  bwd=36.8ms  opt=107.6ms  iter=189.8ms  peak_mem=6027MB
+ep=00  step= 6950  loss=2.7006 (3.1628)  ppl=14.9  lr=1.67e-04  grad_norm=2.320  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.6ms  bwd=36.4ms  opt=107.6ms  iter=188.9ms  peak_mem=6027MB
+ep=00  step= 7000  loss=3.1926 (3.1197)  ppl=24.4  lr=1.66e-04  grad_norm=2.395  sps=41.7  dl=0.4ms  h2d=0.5ms  fwd=43.9ms  bwd=35.8ms  opt=107.7ms  iter=188.7ms  peak_mem=6027MB
+ep=00  step= 7050  loss=2.5857 (3.1137)  ppl=13.3  lr=1.64e-04  grad_norm=2.422  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.8ms  bwd=36.3ms  opt=107.6ms  iter=189.0ms  peak_mem=6027MB
+ep=00  step= 7100  loss=2.5504 (3.1174)  ppl=12.8  lr=1.63e-04  grad_norm=1.944  sps=40.4  dl=0.4ms  h2d=0.5ms  fwd=43.6ms  bwd=36.0ms  opt=107.6ms  iter=188.5ms  peak_mem=6027MB
+ep=00  step= 7150  loss=3.8018 (3.2389)  ppl=44.8  lr=1.61e-04  grad_norm=2.569  sps=42.9  dl=0.4ms  h2d=0.5ms  fwd=43.7ms  bwd=36.3ms  opt=107.6ms  iter=188.8ms  peak_mem=6027MB
+ep=00  step= 7200  loss=2.7637 (3.1569)  ppl=15.9  lr=1.59e-04  grad_norm=2.241  sps=42.5  dl=0.4ms  h2d=0.5ms  fwd=43.2ms  bwd=36.4ms  opt=107.6ms  iter=188.5ms  peak_mem=6027MB
+ep=00  step= 7250  loss=3.2394 (3.1104)  ppl=25.5  lr=1.58e-04  grad_norm=2.177  sps=41.2  dl=0.4ms  h2d=0.5ms  fwd=43.7ms  bwd=36.6ms  opt=107.6ms  iter=189.1ms  peak_mem=6027MB
+ep=00  step= 7300  loss=3.4494 (3.1608)  ppl=31.5  lr=1.56e-04  grad_norm=2.143  sps=41.1  dl=0.4ms  h2d=0.5ms  fwd=43.7ms  bwd=36.4ms  opt=107.6ms  iter=189.0ms  peak_mem=6027MB
+ep=00  step= 7350  loss=2.8526 (3.0920)  ppl=17.3  lr=1.55e-04  grad_norm=2.153  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.8ms  bwd=36.6ms  opt=107.7ms  iter=189.3ms  peak_mem=6027MB
+ep=00  step= 7400  loss=3.0113 (3.1315)  ppl=20.3  lr=1.53e-04  grad_norm=2.454  sps=42.8  dl=0.4ms  h2d=0.5ms  fwd=43.5ms  bwd=36.7ms  opt=107.6ms  iter=189.1ms  peak_mem=6027MB
+ep=00  step= 7450  loss=2.8337 (3.1204)  ppl=17.0  lr=1.51e-04  grad_norm=2.212  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.8ms  bwd=36.4ms  opt=107.6ms  iter=189.1ms  peak_mem=6027MB
+ep=00  step= 7500  loss=3.0201 (3.1330)  ppl=20.5  lr=1.50e-04  grad_norm=2.593  sps=42.9  dl=0.4ms  h2d=0.5ms  fwd=43.4ms  bwd=36.2ms  opt=107.7ms  iter=188.5ms  peak_mem=6027MB
+ep=00  step= 7550  loss=3.1357 (3.0802)  ppl=23.0  lr=1.48e-04  grad_norm=2.519  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.6ms  bwd=36.4ms  opt=107.6ms  iter=188.9ms  peak_mem=6027MB
+ep=00  step= 7600  loss=3.2987 (3.0339)  ppl=27.1  lr=1.47e-04  grad_norm=2.437  sps=41.7  dl=0.4ms  h2d=0.5ms  fwd=43.7ms  bwd=36.2ms  opt=107.7ms  iter=188.8ms  peak_mem=6027MB
+ep=00  step= 7650  loss=3.2391 (3.0946)  ppl=25.5  lr=1.45e-04  grad_norm=2.319  sps=42.3  dl=0.4ms  h2d=0.5ms  fwd=44.2ms  bwd=35.9ms  opt=107.6ms  iter=189.0ms  peak_mem=6027MB
+ep=00  step= 7700  loss=2.6916 (3.0964)  ppl=14.8  lr=1.43e-04  grad_norm=2.225  sps=42.5  dl=0.4ms  h2d=0.5ms  fwd=43.9ms  bwd=36.7ms  opt=107.7ms  iter=189.5ms  peak_mem=6027MB
+ep=00  step= 7750  loss=3.4001 (3.0650)  ppl=30.0  lr=1.42e-04  grad_norm=2.175  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=44.5ms  bwd=36.6ms  opt=107.5ms  iter=189.9ms  peak_mem=6027MB
+ep=00  step= 7800  loss=2.9510 (3.1300)  ppl=19.1  lr=1.40e-04  grad_norm=2.297  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.3ms  bwd=36.2ms  opt=107.5ms  iter=188.3ms  peak_mem=6027MB
+ep=00  step= 7850  loss=2.3908 (3.0901)  ppl=10.9  lr=1.38e-04  grad_norm=2.090  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.4ms  bwd=36.3ms  opt=107.6ms  iter=188.5ms  peak_mem=6027MB
+ep=00  step= 7900  loss=3.0946 (3.0575)  ppl=22.1  lr=1.37e-04  grad_norm=2.456  sps=42.5  dl=0.4ms  h2d=0.5ms  fwd=45.4ms  bwd=36.2ms  opt=107.6ms  iter=190.5ms  peak_mem=6027MB
+ep=00  step= 7950  loss=3.1204 (3.1466)  ppl=22.7  lr=1.35e-04  grad_norm=2.212  sps=41.5  dl=0.4ms  h2d=0.5ms  fwd=44.1ms  bwd=36.6ms  opt=107.6ms  iter=189.6ms  peak_mem=6027MB
+ep=00  step= 8000  loss=2.4423 (3.0794)  ppl=11.5  lr=1.34e-04  grad_norm=2.036  sps=42.8  dl=0.4ms  h2d=0.5ms  fwd=43.2ms  bwd=36.0ms  opt=107.6ms  iter=188.1ms  peak_mem=6027MB
+ep=00  step= 8050  loss=2.9698 (2.9708)  ppl=19.5  lr=1.32e-04  grad_norm=2.318  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.1ms  bwd=36.0ms  opt=107.5ms  iter=187.9ms  peak_mem=6027MB
+ep=00  step= 8100  loss=3.1155 (3.1127)  ppl=22.5  lr=1.30e-04  grad_norm=2.350  sps=42.9  dl=0.4ms  h2d=0.5ms  fwd=42.8ms  bwd=36.3ms  opt=107.5ms  iter=187.9ms  peak_mem=6027MB
+ep=00  step= 8150  loss=3.2389 (3.1087)  ppl=25.5  lr=1.29e-04  grad_norm=2.471  sps=42.9  dl=0.4ms  h2d=0.5ms  fwd=43.2ms  bwd=35.8ms  opt=107.5ms  iter=187.8ms  peak_mem=6027MB
+ep=00  step= 8200  loss=3.1631 (2.8692)  ppl=23.6  lr=1.27e-04  grad_norm=2.330  sps=41.4  dl=0.4ms  h2d=0.5ms  fwd=43.1ms  bwd=36.1ms  opt=107.6ms  iter=188.0ms  peak_mem=6027MB
+ep=00  step= 8250  loss=2.6471 (2.9128)  ppl=14.1  lr=1.26e-04  grad_norm=2.096  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.0ms  bwd=35.8ms  opt=107.5ms  iter=187.5ms  peak_mem=6027MB
+ep=00  step= 8300  loss=2.8972 (3.0501)  ppl=18.1  lr=1.24e-04  grad_norm=2.558  sps=42.8  dl=0.4ms  h2d=0.5ms  fwd=43.5ms  bwd=35.7ms  opt=107.6ms  iter=188.1ms  peak_mem=6027MB
+ep=00  step= 8350  loss=3.5803 (3.0213)  ppl=35.9  lr=1.22e-04  grad_norm=2.216  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.0ms  bwd=35.7ms  opt=107.6ms  iter=187.6ms  peak_mem=6027MB
+ep=00  step= 8400  loss=3.6196 (3.0579)  ppl=37.3  lr=1.21e-04  grad_norm=2.560  sps=42.8  dl=0.4ms  h2d=0.5ms  fwd=43.5ms  bwd=35.8ms  opt=107.5ms  iter=188.2ms  peak_mem=6027MB
+ep=00  step= 8450  loss=3.0806 (3.0770)  ppl=21.8  lr=1.19e-04  grad_norm=2.537  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.2ms  bwd=35.9ms  opt=107.5ms  iter=187.8ms  peak_mem=6027MB
+ep=00  step= 8500  loss=3.7190 (3.0577)  ppl=41.2  lr=1.18e-04  grad_norm=2.560  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.2ms  bwd=35.6ms  opt=107.5ms  iter=187.6ms  peak_mem=6027MB
+ep=00  step= 8550  loss=3.8133 (2.9498)  ppl=45.3  lr=1.16e-04  grad_norm=2.445  sps=42.5  dl=0.4ms  h2d=0.5ms  fwd=43.2ms  bwd=35.8ms  opt=107.6ms  iter=187.9ms  peak_mem=6027MB
+ep=00  step= 8600  loss=2.3079 (2.9837)  ppl=10.1  lr=1.15e-04  grad_norm=2.094  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.4ms  bwd=36.1ms  opt=107.6ms  iter=188.3ms  peak_mem=6027MB
+ep=00  step= 8650  loss=3.6505 (3.2209)  ppl=38.5  lr=1.13e-04  grad_norm=2.234  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.2ms  bwd=35.7ms  opt=107.6ms  iter=187.8ms  peak_mem=6027MB
+ep=00  step= 8700  loss=2.6083 (3.0248)  ppl=13.6  lr=1.11e-04  grad_norm=2.313  sps=42.9  dl=0.4ms  h2d=0.5ms  fwd=43.1ms  bwd=35.8ms  opt=107.6ms  iter=187.8ms  peak_mem=6027MB
+ep=00  step= 8750  loss=2.8335 (3.0485)  ppl=17.0  lr=1.10e-04  grad_norm=2.370  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.0ms  bwd=35.8ms  opt=107.5ms  iter=187.6ms  peak_mem=6027MB
+ep=00  step= 8800  loss=2.9592 (3.0810)  ppl=19.3  lr=1.08e-04  grad_norm=2.253  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.3ms  bwd=36.4ms  opt=107.6ms  iter=188.6ms  peak_mem=6027MB
+ep=00  step= 8850  loss=2.6421 (2.9509)  ppl=14.0  lr=1.07e-04  grad_norm=2.215  sps=41.9  dl=0.4ms  h2d=0.5ms  fwd=43.5ms  bwd=35.8ms  opt=107.6ms  iter=188.1ms  peak_mem=6027MB
+ep=00  step= 8900  loss=3.2344 (3.0640)  ppl=25.4  lr=1.05e-04  grad_norm=2.262  sps=42.5  dl=0.4ms  h2d=0.5ms  fwd=43.4ms  bwd=36.1ms  opt=107.6ms  iter=188.4ms  peak_mem=6027MB
+ep=00  step= 8950  loss=2.7667 (3.0257)  ppl=15.9  lr=1.04e-04  grad_norm=2.190  sps=41.6  dl=0.4ms  h2d=0.5ms  fwd=43.5ms  bwd=36.0ms  opt=107.6ms  iter=188.4ms  peak_mem=6027MB
+ep=00  step= 9000  loss=2.5189 (3.0617)  ppl=12.4  lr=1.02e-04  grad_norm=2.220  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=44.4ms  bwd=37.2ms  opt=107.6ms  iter=190.5ms  peak_mem=6027MB
+ep=00  step= 9050  loss=2.4892 (2.9911)  ppl=12.1  lr=1.01e-04  grad_norm=2.271  sps=41.5  dl=0.4ms  h2d=0.5ms  fwd=44.0ms  bwd=36.2ms  opt=107.6ms  iter=189.1ms  peak_mem=6027MB
+ep=00  step= 9100  loss=3.0268 (3.1184)  ppl=20.6  lr=9.91e-05  grad_norm=2.362  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=44.2ms  bwd=35.8ms  opt=107.6ms  iter=188.9ms  peak_mem=6027MB
+ep=00  step= 9150  loss=2.9015 (3.0520)  ppl=18.2  lr=9.76e-05  grad_norm=2.130  sps=41.8  dl=0.4ms  h2d=0.5ms  fwd=43.7ms  bwd=35.8ms  opt=107.6ms  iter=188.4ms  peak_mem=6027MB
+ep=00  step= 9200  loss=3.4358 (3.0905)  ppl=31.1  lr=9.61e-05  grad_norm=2.495  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=44.6ms  bwd=38.1ms  opt=107.6ms  iter=191.6ms  peak_mem=6027MB
+ep=00  step= 9250  loss=2.5986 (2.9611)  ppl=13.4  lr=9.46e-05  grad_norm=2.242  sps=42.5  dl=0.4ms  h2d=0.5ms  fwd=43.8ms  bwd=35.7ms  opt=107.6ms  iter=188.3ms  peak_mem=6027MB
+ep=00  step= 9300  loss=2.5130 (3.0297)  ppl=12.3  lr=9.31e-05  grad_norm=2.244  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.4ms  bwd=35.8ms  opt=107.5ms  iter=187.9ms  peak_mem=6027MB
+ep=00  step= 9350  loss=2.3927 (3.0881)  ppl=10.9  lr=9.16e-05  grad_norm=2.157  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.1ms  bwd=35.8ms  opt=107.6ms  iter=187.7ms  peak_mem=6027MB
+ep=00  step= 9400  loss=2.9404 (3.0632)  ppl=18.9  lr=9.01e-05  grad_norm=2.247  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.4ms  bwd=36.0ms  opt=107.6ms  iter=188.2ms  peak_mem=6027MB
+ep=00  step= 9450  loss=2.6932 (3.0042)  ppl=14.8  lr=8.86e-05  grad_norm=2.143  sps=42.8  dl=0.4ms  h2d=0.5ms  fwd=43.0ms  bwd=36.5ms  opt=107.6ms  iter=188.3ms  peak_mem=6027MB
+ep=00  step= 9500  loss=3.0483 (3.0067)  ppl=21.1  lr=8.71e-05  grad_norm=2.527  sps=41.1  dl=0.4ms  h2d=0.5ms  fwd=43.5ms  bwd=36.0ms  opt=107.6ms  iter=188.3ms  peak_mem=6027MB
+ep=00  step= 9550  loss=2.8841 (2.9679)  ppl=17.9  lr=8.57e-05  grad_norm=2.282  sps=42.8  dl=0.4ms  h2d=0.5ms  fwd=43.6ms  bwd=36.3ms  opt=107.6ms  iter=188.7ms  peak_mem=6027MB
+ep=00  step= 9600  loss=2.7081 (3.0951)  ppl=15.0  lr=8.42e-05  grad_norm=2.241  sps=41.2  dl=0.4ms  h2d=0.5ms  fwd=43.4ms  bwd=36.0ms  opt=107.6ms  iter=188.2ms  peak_mem=6027MB
+ep=00  step= 9650  loss=2.5192 (3.1288)  ppl=12.4  lr=8.28e-05  grad_norm=2.245  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.4ms  bwd=35.9ms  opt=107.5ms  iter=188.1ms  peak_mem=6027MB
+ep=00  step= 9700  loss=2.7015 (2.9278)  ppl=14.9  lr=8.13e-05  grad_norm=2.246  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.1ms  bwd=35.6ms  opt=107.5ms  iter=187.5ms  peak_mem=6027MB
+ep=00  step= 9750  loss=2.7108 (2.9249)  ppl=15.0  lr=7.99e-05  grad_norm=2.298  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.5ms  bwd=35.8ms  opt=107.6ms  iter=188.0ms  peak_mem=6027MB
+ep=00  step= 9800  loss=3.0934 (2.9875)  ppl=22.1  lr=7.85e-05  grad_norm=2.178  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=42.9ms  bwd=35.8ms  opt=107.5ms  iter=187.4ms  peak_mem=6027MB
+ep=00  step= 9850  loss=2.8854 (2.9208)  ppl=17.9  lr=7.71e-05  grad_norm=2.239  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=42.9ms  bwd=35.7ms  opt=107.5ms  iter=187.4ms  peak_mem=6027MB
+ep=00  step= 9900  loss=2.5723 (2.9241)  ppl=13.1  lr=7.56e-05  grad_norm=2.329  sps=41.1  dl=0.4ms  h2d=0.5ms  fwd=43.5ms  bwd=35.8ms  opt=107.5ms  iter=188.0ms  peak_mem=6027MB
+ep=00  step= 9950  loss=2.5397 (2.9319)  ppl=12.7  lr=7.42e-05  grad_norm=2.315  sps=42.8  dl=0.4ms  h2d=0.5ms  fwd=43.0ms  bwd=36.1ms  opt=107.6ms  iter=187.9ms  peak_mem=6027MB
+ep=00  step=10000  loss=3.1772 (2.9821)  ppl=24.0  lr=7.29e-05  grad_norm=2.493  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.0ms  bwd=35.8ms  opt=107.5ms  iter=187.5ms  peak_mem=6027MB
+ep=00  step=10050  loss=3.2127 (2.9885)  ppl=24.8  lr=7.15e-05  grad_norm=2.401  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.0ms  bwd=36.0ms  opt=107.6ms  iter=187.8ms  peak_mem=6027MB
+ep=00  step=10100  loss=4.0495 (3.0547)  ppl=57.4  lr=7.01e-05  grad_norm=2.667  sps=42.8  dl=0.4ms  h2d=0.5ms  fwd=42.9ms  bwd=35.7ms  opt=107.6ms  iter=187.4ms  peak_mem=6027MB
+ep=00  step=10150  loss=2.6976 (2.8523)  ppl=14.8  lr=6.87e-05  grad_norm=2.383  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.0ms  bwd=36.0ms  opt=107.6ms  iter=187.8ms  peak_mem=6027MB
+ep=00  step=10200  loss=3.7469 (3.0831)  ppl=42.4  lr=6.74e-05  grad_norm=2.356  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.3ms  bwd=36.2ms  opt=107.6ms  iter=188.4ms  peak_mem=6027MB
+ep=00  step=10250  loss=2.5772 (3.0318)  ppl=13.2  lr=6.60e-05  grad_norm=2.122  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.6ms  bwd=36.5ms  opt=107.6ms  iter=188.9ms  peak_mem=6027MB
+ep=00  step=10300  loss=2.9597 (2.9989)  ppl=19.3  lr=6.47e-05  grad_norm=2.077  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.3ms  bwd=36.1ms  opt=107.6ms  iter=188.3ms  peak_mem=6027MB
+ep=00  step=10350  loss=2.9629 (3.1054)  ppl=19.4  lr=6.34e-05  grad_norm=2.283  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.2ms  bwd=35.7ms  opt=107.5ms  iter=187.7ms  peak_mem=6027MB
+ep=00  step=10400  loss=2.5596 (3.0121)  ppl=12.9  lr=6.21e-05  grad_norm=2.294  sps=42.8  dl=0.4ms  h2d=0.5ms  fwd=43.2ms  bwd=35.8ms  opt=107.5ms  iter=187.8ms  peak_mem=6027MB
+ep=00  step=10450  loss=3.5006 (3.0166)  ppl=33.1  lr=6.08e-05  grad_norm=2.218  sps=41.2  dl=0.4ms  h2d=0.5ms  fwd=43.8ms  bwd=37.0ms  opt=107.6ms  iter=189.6ms  peak_mem=6027MB
+ep=00  step=10500  loss=3.0866 (2.9842)  ppl=21.9  lr=5.95e-05  grad_norm=2.270  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.1ms  bwd=36.0ms  opt=107.5ms  iter=187.9ms  peak_mem=6027MB
+ep=00  step=10550  loss=3.1775 (3.0104)  ppl=24.0  lr=5.82e-05  grad_norm=2.257  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.0ms  bwd=35.9ms  opt=107.6ms  iter=187.7ms  peak_mem=6027MB
+ep=00  step=10600  loss=2.9553 (2.8711)  ppl=19.2  lr=5.69e-05  grad_norm=2.144  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=42.9ms  bwd=36.1ms  opt=107.5ms  iter=187.8ms  peak_mem=6027MB
+ep=00  step=10650  loss=2.5755 (2.8590)  ppl=13.1  lr=5.57e-05  grad_norm=2.195  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.8ms  bwd=36.1ms  opt=107.6ms  iter=188.8ms  peak_mem=6027MB
+ep=00  step=10700  loss=3.0157 (2.9723)  ppl=20.4  lr=5.44e-05  grad_norm=2.374  sps=42.5  dl=0.4ms  h2d=0.5ms  fwd=43.6ms  bwd=36.0ms  opt=107.6ms  iter=188.5ms  peak_mem=6027MB
+ep=00  step=10750  loss=2.5686 (3.0607)  ppl=13.0  lr=5.32e-05  grad_norm=2.207  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.8ms  bwd=36.1ms  opt=107.6ms  iter=188.7ms  peak_mem=6027MB
+ep=00  step=10800  loss=2.3411 (2.9520)  ppl=10.4  lr=5.19e-05  grad_norm=2.171  sps=42.5  dl=0.4ms  h2d=0.5ms  fwd=43.4ms  bwd=35.9ms  opt=107.6ms  iter=188.1ms  peak_mem=6027MB
+ep=00  step=10850  loss=2.5060 (3.0161)  ppl=12.3  lr=5.07e-05  grad_norm=2.208  sps=42.3  dl=0.4ms  h2d=0.5ms  fwd=43.9ms  bwd=36.6ms  opt=107.7ms  iter=189.5ms  peak_mem=6027MB
+ep=00  step=10900  loss=3.0089 (2.9940)  ppl=20.3  lr=4.95e-05  grad_norm=2.478  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=44.1ms  bwd=35.9ms  opt=107.6ms  iter=188.8ms  peak_mem=6027MB
+ep=00  step=10950  loss=3.5089 (2.9778)  ppl=33.4  lr=4.83e-05  grad_norm=3.116  sps=42.5  dl=0.4ms  h2d=0.5ms  fwd=43.9ms  bwd=35.9ms  opt=107.6ms  iter=188.7ms  peak_mem=6027MB
+ep=00  step=11000  loss=3.0029 (2.9635)  ppl=20.1  lr=4.71e-05  grad_norm=2.449  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.7ms  bwd=35.9ms  opt=107.6ms  iter=188.4ms  peak_mem=6027MB
+ep=00  step=11050  loss=2.6449 (3.1089)  ppl=14.1  lr=4.60e-05  grad_norm=2.094  sps=42.8  dl=0.4ms  h2d=0.5ms  fwd=43.1ms  bwd=35.9ms  opt=107.6ms  iter=187.8ms  peak_mem=6027MB
+ep=00  step=11100  loss=3.6768 (3.0367)  ppl=39.5  lr=4.48e-05  grad_norm=2.341  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.6ms  bwd=35.8ms  opt=107.6ms  iter=188.2ms  peak_mem=6027MB
+ep=00  step=11150  loss=3.9950 (2.9635)  ppl=54.3  lr=4.37e-05  grad_norm=2.640  sps=42.5  dl=0.4ms  h2d=0.5ms  fwd=44.2ms  bwd=35.9ms  opt=107.6ms  iter=189.0ms  peak_mem=6027MB
+ep=00  step=11200  loss=3.1858 (2.9371)  ppl=24.2  lr=4.25e-05  grad_norm=2.401  sps=41.7  dl=0.4ms  h2d=0.5ms  fwd=43.7ms  bwd=36.2ms  opt=107.6ms  iter=188.8ms  peak_mem=6027MB
+ep=00  step=11250  loss=2.7214 (2.9484)  ppl=15.2  lr=4.14e-05  grad_norm=2.299  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.4ms  bwd=35.8ms  opt=107.6ms  iter=188.1ms  peak_mem=6027MB
+ep=00  step=11300  loss=2.7156 (3.0103)  ppl=15.1  lr=4.03e-05  grad_norm=2.275  sps=42.5  dl=0.4ms  h2d=0.5ms  fwd=44.2ms  bwd=35.9ms  opt=107.6ms  iter=189.0ms  peak_mem=6027MB
+ep=00  step=11350  loss=3.2991 (2.9367)  ppl=27.1  lr=3.92e-05  grad_norm=2.232  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.6ms  bwd=35.9ms  opt=107.6ms  iter=188.3ms  peak_mem=6027MB
+ep=00  step=11400  loss=2.8234 (2.9499)  ppl=16.8  lr=3.81e-05  grad_norm=2.425  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.6ms  bwd=36.9ms  opt=107.6ms  iter=189.4ms  peak_mem=6027MB
+ep=00  step=11450  loss=2.9701 (2.9637)  ppl=19.5  lr=3.71e-05  grad_norm=2.371  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.5ms  bwd=36.3ms  opt=107.6ms  iter=188.7ms  peak_mem=6027MB
+ep=00  step=11500  loss=2.8020 (3.0219)  ppl=16.5  lr=3.60e-05  grad_norm=2.063  sps=42.5  dl=0.4ms  h2d=0.5ms  fwd=43.9ms  bwd=36.4ms  opt=107.6ms  iter=189.2ms  peak_mem=6027MB
+ep=00  step=11550  loss=3.6454 (2.9220)  ppl=38.3  lr=3.50e-05  grad_norm=2.753  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.0ms  bwd=36.0ms  opt=107.6ms  iter=187.8ms  peak_mem=6027MB
+ep=00  step=11600  loss=2.6489 (3.1197)  ppl=14.1  lr=3.39e-05  grad_norm=2.166  sps=42.9  dl=0.4ms  h2d=0.5ms  fwd=43.4ms  bwd=35.8ms  opt=107.5ms  iter=188.0ms  peak_mem=6027MB
+ep=00  step=11650  loss=3.1960 (2.8730)  ppl=24.4  lr=3.29e-05  grad_norm=2.514  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.3ms  bwd=35.9ms  opt=107.6ms  iter=188.0ms  peak_mem=6027MB
+ep=00  step=11700  loss=2.7460 (2.9074)  ppl=15.6  lr=3.19e-05  grad_norm=2.247  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=44.4ms  bwd=36.2ms  opt=107.6ms  iter=189.5ms  peak_mem=6027MB
+ep=00  step=11750  loss=2.5122 (2.9294)  ppl=12.3  lr=3.09e-05  grad_norm=2.303  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.2ms  bwd=35.9ms  opt=107.6ms  iter=188.0ms  peak_mem=6027MB
+ep=00  step=11800  loss=2.8440 (2.9071)  ppl=17.2  lr=2.99e-05  grad_norm=2.095  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.2ms  bwd=36.2ms  opt=107.6ms  iter=188.3ms  peak_mem=6027MB
+ep=00  step=11850  loss=3.2037 (2.9201)  ppl=24.6  lr=2.90e-05  grad_norm=2.356  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.1ms  bwd=36.8ms  opt=107.6ms  iter=188.8ms  peak_mem=6027MB
+ep=00  step=11900  loss=2.7329 (2.8137)  ppl=15.4  lr=2.80e-05  grad_norm=2.279  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.0ms  bwd=36.1ms  opt=107.5ms  iter=187.9ms  peak_mem=6027MB
+ep=00  step=11950  loss=3.2415 (2.9759)  ppl=25.6  lr=2.71e-05  grad_norm=2.231  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.0ms  bwd=35.8ms  opt=107.5ms  iter=187.6ms  peak_mem=6027MB
+ep=00  step=12000  loss=2.7177 (3.0343)  ppl=15.1  lr=2.62e-05  grad_norm=2.191  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.4ms  bwd=35.9ms  opt=107.5ms  iter=188.1ms  peak_mem=6027MB
+ep=00  step=12050  loss=4.1320 (2.9780)  ppl=62.3  lr=2.53e-05  grad_norm=2.864  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.1ms  bwd=35.9ms  opt=107.5ms  iter=187.7ms  peak_mem=6027MB
+ep=00  step=12100  loss=3.8826 (2.8950)  ppl=48.6  lr=2.44e-05  grad_norm=2.528  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.3ms  bwd=35.8ms  opt=107.6ms  iter=187.9ms  peak_mem=6027MB
+ep=00  step=12150  loss=2.9125 (2.9799)  ppl=18.4  lr=2.35e-05  grad_norm=2.299  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.9ms  bwd=35.9ms  opt=107.6ms  iter=188.7ms  peak_mem=6027MB
+ep=00  step=12200  loss=3.2312 (2.8749)  ppl=25.3  lr=2.27e-05  grad_norm=2.291  sps=42.5  dl=0.4ms  h2d=0.5ms  fwd=43.8ms  bwd=35.8ms  opt=107.6ms  iter=188.4ms  peak_mem=6027MB
+ep=00  step=12250  loss=3.5650 (2.9160)  ppl=35.3  lr=2.18e-05  grad_norm=2.310  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.7ms  bwd=35.9ms  opt=107.6ms  iter=188.4ms  peak_mem=6027MB
+ep=00  step=12300  loss=2.9948 (2.9763)  ppl=20.0  lr=2.10e-05  grad_norm=2.288  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.2ms  bwd=35.8ms  opt=107.5ms  iter=187.8ms  peak_mem=6027MB
+ep=00  step=12350  loss=2.7330 (2.9356)  ppl=15.4  lr=2.02e-05  grad_norm=2.260  sps=41.0  dl=0.4ms  h2d=0.5ms  fwd=45.4ms  bwd=37.1ms  opt=107.7ms  iter=191.5ms  peak_mem=6027MB
+ep=00  step=12400  loss=3.0065 (2.8747)  ppl=20.2  lr=1.94e-05  grad_norm=2.393  sps=41.0  dl=0.4ms  h2d=0.5ms  fwd=44.6ms  bwd=36.1ms  opt=107.6ms  iter=189.6ms  peak_mem=6027MB
+ep=00  step=12450  loss=3.0421 (2.9631)  ppl=20.9  lr=1.86e-05  grad_norm=2.291  sps=41.5  dl=0.4ms  h2d=0.5ms  fwd=45.6ms  bwd=36.2ms  opt=107.7ms  iter=190.7ms  peak_mem=6027MB
+ep=00  step=12500  loss=3.6895 (2.8638)  ppl=40.0  lr=1.78e-05  grad_norm=2.684  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.9ms  bwd=35.8ms  opt=107.6ms  iter=188.6ms  peak_mem=6027MB
+ep=00  step=12550  loss=3.1000 (2.8500)  ppl=22.2  lr=1.70e-05  grad_norm=2.343  sps=41.5  dl=0.4ms  h2d=0.5ms  fwd=43.1ms  bwd=35.9ms  opt=107.6ms  iter=187.8ms  peak_mem=6027MB
+ep=00  step=12600  loss=2.4548 (3.0101)  ppl=11.6  lr=1.63e-05  grad_norm=2.207  sps=41.5  dl=0.4ms  h2d=0.5ms  fwd=43.5ms  bwd=35.8ms  opt=107.6ms  iter=188.1ms  peak_mem=6027MB
+ep=00  step=12650  loss=2.6885 (2.9421)  ppl=14.7  lr=1.56e-05  grad_norm=2.257  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.7ms  bwd=36.0ms  opt=107.6ms  iter=188.5ms  peak_mem=6027MB
+ep=00  step=12700  loss=3.1148 (2.9585)  ppl=22.5  lr=1.49e-05  grad_norm=2.465  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.5ms  bwd=37.5ms  opt=107.6ms  iter=189.8ms  peak_mem=6027MB
+ep=00  step=12750  loss=3.6802 (2.9274)  ppl=39.7  lr=1.42e-05  grad_norm=2.585  sps=42.5  dl=0.4ms  h2d=0.5ms  fwd=43.7ms  bwd=36.1ms  opt=107.6ms  iter=188.6ms  peak_mem=6027MB
+ep=00  step=12800  loss=2.2811 (2.9255)  ppl=9.8  lr=1.35e-05  grad_norm=2.193  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.5ms  bwd=36.0ms  opt=107.5ms  iter=188.3ms  peak_mem=6027MB
+ep=00  step=12850  loss=3.1855 (2.8727)  ppl=24.2  lr=1.28e-05  grad_norm=2.422  sps=42.9  dl=0.4ms  h2d=0.5ms  fwd=43.7ms  bwd=36.0ms  opt=107.5ms  iter=188.5ms  peak_mem=6027MB
+ep=00  step=12900  loss=3.1924 (2.8155)  ppl=24.3  lr=1.22e-05  grad_norm=2.398  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.7ms  bwd=36.5ms  opt=107.6ms  iter=189.1ms  peak_mem=6027MB
+ep=00  step=12950  loss=3.1216 (2.9140)  ppl=22.7  lr=1.16e-05  grad_norm=2.462  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=44.0ms  bwd=36.2ms  opt=107.7ms  iter=189.2ms  peak_mem=6027MB
+ep=00  step=13000  loss=3.5767 (2.8738)  ppl=35.8  lr=1.09e-05  grad_norm=2.369  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.3ms  bwd=36.6ms  opt=107.6ms  iter=188.8ms  peak_mem=6027MB
+ep=00  step=13050  loss=4.0154 (2.9440)  ppl=55.4  lr=1.04e-05  grad_norm=2.379  sps=42.5  dl=0.4ms  h2d=0.5ms  fwd=43.8ms  bwd=35.6ms  opt=107.6ms  iter=188.3ms  peak_mem=6027MB
+ep=00  step=13100  loss=3.3929 (2.7763)  ppl=29.8  lr=9.77e-06  grad_norm=2.462  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.8ms  bwd=35.9ms  opt=107.6ms  iter=188.6ms  peak_mem=6027MB
+ep=00  step=13150  loss=3.0641 (2.8542)  ppl=21.4  lr=9.21e-06  grad_norm=2.370  sps=42.5  dl=0.4ms  h2d=0.5ms  fwd=43.5ms  bwd=35.9ms  opt=107.6ms  iter=188.3ms  peak_mem=6027MB
+ep=00  step=13200  loss=2.3342 (2.7932)  ppl=10.3  lr=8.66e-06  grad_norm=2.221  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.2ms  bwd=35.7ms  opt=107.6ms  iter=187.8ms  peak_mem=6027MB
+ep=00  step=13250  loss=2.5640 (2.9170)  ppl=13.0  lr=8.12e-06  grad_norm=2.555  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.6ms  bwd=36.1ms  opt=107.6ms  iter=188.7ms  peak_mem=6027MB
+ep=00  step=13300  loss=2.9862 (2.8772)  ppl=19.8  lr=7.61e-06  grad_norm=2.392  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=44.1ms  bwd=36.1ms  opt=107.6ms  iter=189.1ms  peak_mem=6027MB
+ep=00  step=13350  loss=3.7619 (2.8792)  ppl=43.0  lr=7.11e-06  grad_norm=2.295  sps=42.8  dl=0.4ms  h2d=0.5ms  fwd=43.5ms  bwd=35.7ms  opt=107.6ms  iter=188.1ms  peak_mem=6027MB
+ep=00  step=13400  loss=2.4699 (3.0401)  ppl=11.8  lr=6.62e-06  grad_norm=2.248  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=44.2ms  bwd=36.3ms  opt=107.6ms  iter=189.4ms  peak_mem=6027MB
+ep=00  step=13450  loss=3.0597 (2.9269)  ppl=21.3  lr=6.16e-06  grad_norm=2.309  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.4ms  bwd=36.4ms  opt=107.6ms  iter=188.7ms  peak_mem=6027MB
+ep=00  step=13500  loss=2.5526 (2.9431)  ppl=12.8  lr=5.71e-06  grad_norm=1.987  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.5ms  bwd=36.2ms  opt=107.5ms  iter=188.5ms  peak_mem=6027MB
+ep=00  step=13550  loss=3.5409 (2.8350)  ppl=34.5  lr=5.28e-06  grad_norm=2.327  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.6ms  bwd=36.8ms  opt=107.6ms  iter=189.3ms  peak_mem=6027MB
+ep=00  step=13600  loss=3.6275 (3.0657)  ppl=37.6  lr=4.86e-06  grad_norm=2.589  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.6ms  bwd=36.8ms  opt=107.5ms  iter=189.2ms  peak_mem=6027MB
+ep=00  step=13650  loss=2.6269 (2.9065)  ppl=13.8  lr=4.46e-06  grad_norm=2.102  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.5ms  bwd=36.1ms  opt=107.6ms  iter=188.5ms  peak_mem=6027MB
+ep=00  step=13700  loss=3.2441 (2.9985)  ppl=25.6  lr=4.08e-06  grad_norm=2.319  sps=41.0  dl=0.4ms  h2d=0.5ms  fwd=43.4ms  bwd=36.3ms  opt=107.7ms  iter=188.7ms  peak_mem=6027MB
+ep=00  step=13750  loss=3.4977 (2.8010)  ppl=33.0  lr=3.71e-06  grad_norm=2.344  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.6ms  bwd=36.0ms  opt=107.6ms  iter=188.4ms  peak_mem=6027MB
+ep=00  step=13800  loss=2.1309 (2.9071)  ppl=8.4  lr=3.36e-06  grad_norm=2.028  sps=42.5  dl=0.4ms  h2d=0.5ms  fwd=43.4ms  bwd=35.7ms  opt=107.5ms  iter=187.9ms  peak_mem=6027MB
+ep=00  step=13850  loss=2.1670 (2.8020)  ppl=8.7  lr=3.03e-06  grad_norm=2.105  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.5ms  bwd=36.1ms  opt=107.5ms  iter=188.4ms  peak_mem=6027MB
+ep=00  step=13900  loss=2.6795 (2.9093)  ppl=14.6  lr=2.72e-06  grad_norm=2.272  sps=41.4  dl=0.4ms  h2d=0.5ms  fwd=43.7ms  bwd=35.9ms  opt=107.6ms  iter=188.5ms  peak_mem=6027MB
+ep=00  step=13950  loss=3.2172 (2.8579)  ppl=25.0  lr=2.42e-06  grad_norm=2.399  sps=42.8  dl=0.4ms  h2d=0.5ms  fwd=43.5ms  bwd=36.3ms  opt=107.6ms  iter=188.6ms  peak_mem=6027MB
+ep=00  step=14000  loss=2.7849 (2.8178)  ppl=16.2  lr=2.14e-06  grad_norm=2.260  sps=42.8  dl=0.4ms  h2d=0.5ms  fwd=43.4ms  bwd=35.8ms  opt=107.5ms  iter=187.9ms  peak_mem=6027MB
+ep=00  step=14050  loss=2.6871 (2.9527)  ppl=14.7  lr=1.88e-06  grad_norm=2.125  sps=42.8  dl=0.4ms  h2d=0.5ms  fwd=43.5ms  bwd=35.8ms  opt=107.5ms  iter=188.1ms  peak_mem=6027MB
+ep=00  step=14100  loss=3.2505 (2.9454)  ppl=25.8  lr=1.63e-06  grad_norm=2.477  sps=41.5  dl=0.4ms  h2d=0.5ms  fwd=43.1ms  bwd=35.9ms  opt=107.5ms  iter=187.8ms  peak_mem=6027MB
+ep=00  step=14150  loss=2.6524 (2.9691)  ppl=14.2  lr=1.40e-06  grad_norm=2.272  sps=42.2  dl=0.4ms  h2d=0.5ms  fwd=43.2ms  bwd=36.3ms  opt=107.5ms  iter=188.3ms  peak_mem=6027MB
+ep=00  step=14200  loss=2.6660 (2.9808)  ppl=14.4  lr=1.19e-06  grad_norm=2.430  sps=41.2  dl=0.4ms  h2d=0.5ms  fwd=43.4ms  bwd=36.9ms  opt=107.6ms  iter=189.1ms  peak_mem=6027MB
+ep=00  step=14250  loss=3.4455 (2.8826)  ppl=31.4  lr=9.95e-07  grad_norm=2.599  sps=41.3  dl=0.4ms  h2d=0.5ms  fwd=43.3ms  bwd=36.3ms  opt=107.6ms  iter=188.4ms  peak_mem=6027MB
+ep=00  step=14300  loss=3.1738 (2.9429)  ppl=23.9  lr=8.18e-07  grad_norm=2.387  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.0ms  bwd=36.1ms  opt=107.5ms  iter=187.9ms  peak_mem=6027MB
+ep=00  step=14350  loss=2.8383 (3.0749)  ppl=17.1  lr=6.58e-07  grad_norm=2.523  sps=42.5  dl=0.4ms  h2d=0.5ms  fwd=43.3ms  bwd=36.9ms  opt=107.6ms  iter=189.1ms  peak_mem=6027MB
+ep=00  step=14400  loss=3.1634 (2.7721)  ppl=23.6  lr=5.15e-07  grad_norm=2.319  sps=42.4  dl=0.4ms  h2d=0.5ms  fwd=44.2ms  bwd=35.7ms  opt=107.6ms  iter=188.7ms  peak_mem=6027MB
+ep=00  step=14450  loss=2.8215 (2.8877)  ppl=16.8  lr=3.90e-07  grad_norm=2.328  sps=41.1  dl=0.4ms  h2d=0.5ms  fwd=44.2ms  bwd=36.4ms  opt=107.6ms  iter=189.4ms  peak_mem=6027MB
+ep=00  step=14500  loss=2.1582 (2.8938)  ppl=8.7  lr=2.83e-07  grad_norm=2.029  sps=42.8  dl=0.4ms  h2d=0.5ms  fwd=43.6ms  bwd=36.0ms  opt=107.5ms  iter=188.5ms  peak_mem=6027MB
+ep=00  step=14550  loss=2.5654 (2.9180)  ppl=13.0  lr=1.92e-07  grad_norm=2.136  sps=42.9  dl=0.4ms  h2d=0.5ms  fwd=43.3ms  bwd=36.6ms  opt=107.5ms  iter=188.7ms  peak_mem=6027MB
+ep=00  step=14600  loss=2.6364 (2.9605)  ppl=14.0  lr=1.19e-07  grad_norm=2.303  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=42.8ms  bwd=35.7ms  opt=107.6ms  iter=187.3ms  peak_mem=6027MB
+ep=00  step=14650  loss=2.5836 (2.8436)  ppl=13.2  lr=6.34e-08  grad_norm=2.014  sps=42.6  dl=0.4ms  h2d=0.5ms  fwd=43.1ms  bwd=35.9ms  opt=107.5ms  iter=187.7ms  peak_mem=6027MB
+ep=00  step=14700  loss=2.8657 (2.9468)  ppl=17.6  lr=2.51e-08  grad_norm=2.226  sps=42.7  dl=0.4ms  h2d=0.5ms  fwd=43.3ms  bwd=35.8ms  opt=107.6ms  iter=187.9ms  peak_mem=6027MB
+ep=00  step=14750  loss=2.9039 (2.8951)  ppl=18.2  lr=4.26e-09  grad_norm=2.316  sps=42.5  dl=0.4ms  h2d=0.5ms  fwd=43.4ms  bwd=36.1ms  opt=107.5ms  iter=188.2ms  peak_mem=6027MB
+  [Val] epoch=0  step=14786  val_loss=2.7290  val_ppl=15.32  batches=625
+  Checkpoint saved → checkpoints/opt_all/
+
+Training complete in 47.1 min  (14786 steps, 1 epochs)
+[04:58:12] Tier-1 opt_all complete
+[04:58:12] === TIER-2: 100-step Benchmark Experiments ===
+[04:58:12]   Running: A_baseline
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/DHANU/HPML_Project/nanochat/vision/train_vision.py", line 985, in <module>
+    main()
+  File "/home/DHANU/HPML_Project/nanochat/vision/train_vision.py", line 981, in main
+    train(args)
+  File "/home/DHANU/HPML_Project/nanochat/vision/train_vision.py", line 525, in train
+    exp_dir = make_experiment_dir(cfg.train.output_dir, cfg.train.experiment_name,
+  File "/home/DHANU/HPML_Project/nanochat/vision/utils.py", line 372, in make_experiment_dir
+    raise FileExistsError(
+FileExistsError: Experiment directory already exists: checkpoints/A_baseline
+Pass --resume to continue training from that checkpoint.
+
+[GCP / GPU Environment]
+  Python  : 3.10.12
+  PyTorch : 2.9.1+cu128
+  CUDA available: True
+  GPU name : NVIDIA L4
+  SM       : 8.9  (Ampere+)
+  VRAM     : 22.0 GB
+  BF16 ok  : True
+  CUDA ver : 12.8
+  SDPA/Flash: AVAILABLE
+======================================================================
+NanoChat-V Training: A_baseline
+  device=cuda  AMP=False (fp16)
+  compile=False  workers=0
+  pin_memory=False  non_blocking=False
+  GPU: NVIDIA L4  SM=8.9  VRAM=22573 MB
+======================================================================

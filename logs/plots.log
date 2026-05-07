@@ -1,0 +1,32 @@
+============================================================
+NanoChat-V: Generating Figures
+  results_dir = results
+  output_dir  = results/figures
+============================================================
+
+[1] throughput_bar
+  Saved throughput_bar.png + .pdf
+
+[2] memory_bar
+  Saved memory_bar.png + .pdf
+
+[3] latency_bar
+  Saved latency_bar.png + .pdf
+
+[4] tokens_per_sec
+  Saved tokens_per_sec.png + .pdf
+
+[5] dl_sweep_heatmap
+  Saved dl_sweep_heatmap.png + .pdf
+
+[6] speedup_waterfall
+  Saved speedup_waterfall.png + .pdf
+
+[7] component_timing_pie
+  Saved component_timing_pie.png + .pdf
+
+[8] loss_curve
+  Saved loss_curve.png + .pdf
+
+All figures saved to: results/figures/
+  (PNG at 300 dpi + PDF vector format)

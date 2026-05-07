@@ -1,0 +1,91 @@
+[project]
+name = "nanochat"
+version = "0.1.0"
+description = "the minimal full-stack ChatGPT clone"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "datasets>=4.0.0",
+    "fastapi>=0.117.1",
+    "kernels>=0.11.7",
+    "psutil>=7.1.0",
+    "rustbpe>=0.1.0",
+    "tiktoken>=0.11.0",
+    "tokenizers>=0.22.0",
+    "torch==2.9.1",
+    "uvicorn>=0.36.0",
+    "wandb>=0.21.3",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.1.0",
+    "matplotlib>=3.10.8",
+    "pytest>=8.0.0",
+    "python-dotenv>=1.2.1",
+    "transformers>=4.57.3",
+]
+
+[tool.pytest.ini_options]
+markers = [
+    "slow: marks tests as slow (deselect with '-m \"not slow\"')",
+]
+testpaths = ["tests", "nanochat/vision/tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+
+# target torch to cuda 12.8 or CPU
+[tool.uv.sources]
+torch = [
+    { index = "pytorch-cpu", extra = "cpu" },
+    { index = "pytorch-cu128", extra = "gpu" },
+]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
+
+[project.optional-dependencies]
+cpu = [
+    "setuptools>=65.0.0",
+    "torch==2.9.1",
+]
+gpu = [
+    "torch==2.9.1",
+]
+# Vision extras: install with  pip install -e ".[vision]"
+# Required for nanochat.vision (NanoChat-V multimodal model)
+vision = [
+    "transformers>=4.40.0",     # CLIPVisionModel, CLIPProcessor, GPT2TokenizerFast
+    "Pillow>=10.0.0",           # PIL image loading in COCOCaptionDataset
+    "nltk>=3.8.0",              # corpus_bleu for caption evaluation
+    "pycocotools>=2.0.6",       # COCO API (required by pycocoevalcap)
+    "pycocoevalcap>=1.2",       # CIDEr metric
+    "tqdm>=4.65.0",             # progress bars (used by HuggingFace loaders)
+    "pandas>=2.0.0",            # DataFrame for benchmark result summaries
+    "matplotlib>=3.7.0",        # Agg backend plots in plot_results.py
+    "seaborn>=0.12.0",          # optional: nicer heatmap styling
+    "numpy>=1.24.0",            # array ops in plot_results.py
+    "pytest>=8.0.0",            # run nanochat/vision/tests/
+]
+
+[tool.uv]
+default-groups = []
+conflicts = [
+    [
+        { extra = "cpu" },
+        { extra = "gpu" },
+    ],
+]
+[tool.setuptools.packages.find]
+include = ["nanochat*"]
+[build-system]
+requires = ["setuptools>=68.0.0"]
+build-backend = "setuptools.build_meta"

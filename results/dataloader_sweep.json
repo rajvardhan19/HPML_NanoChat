@@ -1,0 +1,142 @@
+[
+  {
+    "num_workers": 0,
+    "batch_size": 4,
+    "dl_wait_mean_ms": 46.72,
+    "dl_wait_p95_ms": 51.68,
+    "images_per_sec": 85.6
+  },
+  {
+    "num_workers": 0,
+    "batch_size": 8,
+    "dl_wait_mean_ms": 95.03,
+    "dl_wait_p95_ms": 102.89,
+    "images_per_sec": 84.2
+  },
+  {
+    "num_workers": 0,
+    "batch_size": 16,
+    "dl_wait_mean_ms": 195.15,
+    "dl_wait_p95_ms": 203.63,
+    "images_per_sec": 82.0
+  },
+  {
+    "num_workers": 0,
+    "batch_size": 32,
+    "dl_wait_mean_ms": 388.56,
+    "dl_wait_p95_ms": 394.25,
+    "images_per_sec": 82.4
+  },
+  {
+    "num_workers": 1,
+    "batch_size": 4,
+    "dl_wait_mean_ms": 50.62,
+    "dl_wait_p95_ms": 57.37,
+    "images_per_sec": 79.0
+  },
+  {
+    "num_workers": 1,
+    "batch_size": 8,
+    "dl_wait_mean_ms": 100.75,
+    "dl_wait_p95_ms": 107.99,
+    "images_per_sec": 79.4
+  },
+  {
+    "num_workers": 1,
+    "batch_size": 16,
+    "dl_wait_mean_ms": 200.72,
+    "dl_wait_p95_ms": 207.97,
+    "images_per_sec": 79.7
+  },
+  {
+    "num_workers": 1,
+    "batch_size": 32,
+    "dl_wait_mean_ms": 404.54,
+    "dl_wait_p95_ms": 569.03,
+    "images_per_sec": 79.1
+  },
+  {
+    "num_workers": 2,
+    "batch_size": 4,
+    "dl_wait_mean_ms": 31.32,
+    "dl_wait_p95_ms": 57.52,
+    "images_per_sec": 127.7
+  },
+  {
+    "num_workers": 2,
+    "batch_size": 8,
+    "dl_wait_mean_ms": 50.69,
+    "dl_wait_p95_ms": 107.84,
+    "images_per_sec": 157.8
+  },
+  {
+    "num_workers": 2,
+    "batch_size": 16,
+    "dl_wait_mean_ms": 105.06,
+    "dl_wait_p95_ms": 208.56,
+    "images_per_sec": 152.3
+  },
+  {
+    "num_workers": 2,
+    "batch_size": 32,
+    "dl_wait_mean_ms": 200.02,
+    "dl_wait_p95_ms": 406.99,
+    "images_per_sec": 160.0
+  },
+  {
+    "num_workers": 4,
+    "batch_size": 4,
+    "dl_wait_mean_ms": 15.74,
+    "dl_wait_p95_ms": 49.41,
+    "images_per_sec": 254.1
+  },
+  {
+    "num_workers": 4,
+    "batch_size": 8,
+    "dl_wait_mean_ms": 29.84,
+    "dl_wait_p95_ms": 105.87,
+    "images_per_sec": 268.1
+  },
+  {
+    "num_workers": 4,
+    "batch_size": 16,
+    "dl_wait_mean_ms": 54.24,
+    "dl_wait_p95_ms": 118.46,
+    "images_per_sec": 295.0
+  },
+  {
+    "num_workers": 4,
+    "batch_size": 32,
+    "dl_wait_mean_ms": 116.66,
+    "dl_wait_p95_ms": 439.44,
+    "images_per_sec": 274.3
+  },
+  {
+    "num_workers": 8,
+    "batch_size": 4,
+    "dl_wait_mean_ms": 10.96,
+    "dl_wait_p95_ms": 63.08,
+    "images_per_sec": 365.0
+  },
+  {
+    "num_workers": 8,
+    "batch_size": 8,
+    "dl_wait_mean_ms": 22.2,
+    "dl_wait_p95_ms": 140.61,
+    "images_per_sec": 360.3
+  },
+  {
+    "num_workers": 8,
+    "batch_size": 16,
+    "dl_wait_mean_ms": 48.26,
+    "dl_wait_p95_ms": 246.02,
+    "images_per_sec": 331.5
+  },
+  {
+    "num_workers": 8,
+    "batch_size": 32,
+    "dl_wait_mean_ms": 89.95,
+    "dl_wait_p95_ms": 600.12,
+    "images_per_sec": 355.8
+  }
+]

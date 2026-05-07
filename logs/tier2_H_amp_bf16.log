@@ -1,0 +1,119 @@
+2026-05-05 05:23:22,383 - httpx - [32m[1mINFO[0m - HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-base-patch32/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-05-05 05:23:22,435 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-05-05 05:23:22,480 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/chat_template.json "HTTP/1.1 404 Not Found"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-05-05 05:23:22,480 - huggingface_hub.utils._http - [33m[1mWARNING[0m - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-05-05 05:23:22,529 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
+2026-05-05 05:23:22,577 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/audio_tokenizer_config.json "HTTP/1.1 404 Not Found"
+2026-05-05 05:23:22,625 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-05-05 05:23:22,674 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-05 05:23:22,690 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/openai/clip-vit-base-patch32/3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268/preprocessor_config.json "HTTP/1.1 200 OK"
+2026-05-05 05:23:22,740 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-05-05 05:23:22,787 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-05 05:23:22,802 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/openai/clip-vit-base-patch32/3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268/preprocessor_config.json "HTTP/1.1 200 OK"
+2026-05-05 05:23:22,849 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-05 05:23:22,865 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/openai/clip-vit-base-patch32/3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268/config.json "HTTP/1.1 200 OK"
+2026-05-05 05:23:22,931 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-05 05:23:22,947 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/openai/clip-vit-base-patch32/3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-05-05 05:23:22,997 - httpx - [32m[1mINFO[0m - HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-base-patch32/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-05-05 05:23:23,051 - httpx - [32m[1mINFO[0m - HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-base-patch32/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-05-05 05:23:23,260 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/gpt2/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-05-05 05:23:23,307 - httpx - [32m[1mINFO[0m - HTTP Request: GET https://huggingface.co/api/models/gpt2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-05-05 05:23:23,355 - httpx - [32m[1mINFO[0m - HTTP Request: GET https://huggingface.co/api/models/openai-community/gpt2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-05-05 05:23:23,401 - httpx - [32m[1mINFO[0m - HTTP Request: GET https://huggingface.co/api/models/gpt2/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-05-05 05:23:23,456 - httpx - [32m[1mINFO[0m - HTTP Request: GET https://huggingface.co/api/models/openai-community/gpt2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-05-05 05:23:30,806 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-05 05:23:30,822 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/openai/clip-vit-base-patch32/3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268/config.json "HTTP/1.1 200 OK"
+2026-05-05 05:23:30,869 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2026-05-05 05:23:30,917 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+2026-05-05 05:23:30,965 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/pytorch_model.bin "HTTP/1.1 302 Found"
+2026-05-05 05:23:31,016 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2026-05-05 05:23:31,066 - httpx - [32m[1mINFO[0m - HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-base-patch32 "HTTP/1.1 200 OK"
+2026-05-05 05:23:31,133 - httpx - [32m[1mINFO[0m - HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-base-patch32/commits/main "HTTP/1.1 200 OK"
+2026-05-05 05:23:31,198 - httpx - [32m[1mINFO[0m - HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-base-patch32/discussions?p=0 "HTTP/1.1 200 OK"
+2026-05-05 05:23:31,259 - httpx - [32m[1mINFO[0m - HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-base-patch32/commits/refs%2Fpr%2F66 "HTTP/1.1 200 OK"
+2026-05-05 05:23:31,314 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/refs%2Fpr%2F66/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+2026-05-05 05:23:31,360 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/refs%2Fpr%2F66/model.safetensors "HTTP/1.1 302 Found"
+
+[GCP / GPU Environment]
+  Python  : 3.10.12
+  PyTorch : 2.9.1+cu128
+  CUDA available: True
+  GPU name : NVIDIA L4
+  SM       : 8.9  (Ampere+)
+  VRAM     : 22.0 GB
+  BF16 ok  : True
+  CUDA ver : 12.8
+  SDPA/Flash: AVAILABLE
+======================================================================
+NanoChat-V Training: H_amp_bf16
+  device=cuda  AMP=True (bf16)
+  compile=False  workers=0
+  pin_memory=False  non_blocking=False
+  GPU: NVIDIA L4  SM=8.9  VRAM=22573 MB
+======================================================================
+Experiment dir: checkpoints/H_amp_bf16
+Loading CLIPProcessor and GPT2Tokenizer …
+Building DataLoaders …
+  Train batches/epoch: 14786
+  Val batches:         625
+  Total training steps: 14786
+Building NanoChatVisionModel …
+Padding vocab_size from 50257 to 50304 for efficiency
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 24596.04it/s]
+[transformers] [1mCLIPVisionModel LOAD REPORT[0m from: openai/clip-vit-base-patch32
+Key                                                          | Status     |  | 
+-------------------------------------------------------------+------------+--+-
+text_model.encoder.layers.{0...11}.self_attn.v_proj.weight   | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.layer_norm2.bias          | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.layer_norm1.bias          | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.mlp.fc1.bias              | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.mlp.fc2.bias              | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.out_proj.bias   | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.k_proj.bias     | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.layer_norm2.weight        | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.mlp.fc1.weight            | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.v_proj.bias     | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.layer_norm1.weight        | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.out_proj.weight | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.q_proj.bias     | UNEXPECTED |  | 
+text_model.final_layer_norm.weight                           | UNEXPECTED |  | 
+visual_projection.weight                                     | UNEXPECTED |  | 
+text_model.final_layer_norm.bias                             | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.k_proj.weight   | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.mlp.fc2.weight            | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.q_proj.weight   | UNEXPECTED |  | 
+text_model.embeddings.position_embedding.weight              | UNEXPECTED |  | 
+logit_scale                                                  | UNEXPECTED |  | 
+text_projection.weight                                       | UNEXPECTED |  | 
+text_model.embeddings.token_embedding.weight                 | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+  Total params: 493,265,810
+  Trainable:    405,809,810
+  Frozen (CLIP): 87,456,000
+  Trainable params: 405,809,810  (decay=105 tensors, no-decay=16 tensors)
+
+Starting training …
+
+ep=00  step=    0  loss=10.8234 (10.8234)  ppl=50181.6  lr=1.50e-06  grad_norm=2.955  sps=8.9  dl=112.0ms  h2d=1.7ms  fwd=508.6ms  bwd=82.3ms  opt=190.4ms  iter=895.3ms  peak_mem=6023MB
+ep=00  step=   10  loss=10.8031 (10.8170)  ppl=49174.2  lr=1.65e-05  grad_norm=3.178  sps=27.4  dl=100.9ms  h2d=1.4ms  fwd=85.2ms  bwd=40.1ms  opt=115.1ms  iter=343.1ms  peak_mem=6027MB
+ep=00  step=   20  loss=10.7055 (10.7892)  ppl=44602.0  lr=3.15e-05  grad_norm=3.363  sps=28.0  dl=98.7ms  h2d=1.3ms  fwd=65.5ms  bwd=37.8ms  opt=111.6ms  iter=315.4ms  peak_mem=6027MB
+ep=00  step=   30  loss=10.4574 (10.7243)  ppl=34800.6  lr=4.65e-05  grad_norm=4.148  sps=28.1  dl=98.0ms  h2d=1.3ms  fwd=58.4ms  bwd=37.1ms  opt=110.3ms  iter=305.6ms  peak_mem=6027MB
+ep=00  step=   40  loss=9.9620 (10.5922)  ppl=21204.7  lr=6.15e-05  grad_norm=4.432  sps=28.4  dl=98.2ms  h2d=1.3ms  fwd=55.0ms  bwd=36.9ms  opt=109.7ms  iter=301.5ms  peak_mem=6027MB
+ep=00  step=   50  loss=9.2323 (10.3848)  ppl=10221.6  lr=7.65e-05  grad_norm=4.766  sps=27.5  dl=102.9ms  h2d=1.3ms  fwd=43.6ms  bwd=35.7ms  opt=107.6ms  iter=291.6ms  peak_mem=6027MB
+ep=00  step=   60  loss=8.3365 (9.9790)  ppl=4173.4  lr=9.15e-05  grad_norm=4.548  sps=28.2  dl=102.5ms  h2d=1.3ms  fwd=43.8ms  bwd=35.6ms  opt=107.6ms  iter=291.2ms  peak_mem=6027MB
+ep=00  step=   70  loss=7.9116 (9.4237)  ppl=2728.8  lr=1.06e-04  grad_norm=3.652  sps=28.5  dl=102.8ms  h2d=1.3ms  fwd=43.7ms  bwd=35.7ms  opt=107.7ms  iter=291.6ms  peak_mem=6027MB
+ep=00  step=   80  loss=6.8164 (8.7493)  ppl=912.7  lr=1.21e-04  grad_norm=4.226  sps=28.3  dl=103.0ms  h2d=1.3ms  fwd=43.7ms  bwd=35.8ms  opt=107.7ms  iter=291.9ms  peak_mem=6027MB
+ep=00  step=   90  loss=5.6792 (8.0273)  ppl=292.7  lr=1.36e-04  grad_norm=3.291  sps=27.8  dl=102.5ms  h2d=1.3ms  fwd=43.5ms  bwd=36.0ms  opt=107.7ms  iter=291.5ms  peak_mem=6027MB
+
+============================================================
+BENCHMARK SUMMARY  [H_amp_bf16]
+  Steps timed:     95
+  Batch size:      8
+  Mean iter time:  289.32 ms
+  Median iter time:286.43 ms
+  P95 iter time:   295.88 ms
+  Throughput (mean):27.7 samples/sec
+============================================================

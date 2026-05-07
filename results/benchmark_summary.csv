@@ -1,0 +1,10 @@
+experiment,num_workers,pin_memory,persistent_workers,prefetch_factor,non_blocking_h2d,use_amp,amp_dtype,batch_size,steps_timed,throughput_sps,iter_ms_mean,iter_ms_median,iter_ms_p95,dl_wait_ms_mean,dl_wait_ms_p95,h2d_ms_mean,forward_ms_mean,backward_ms_mean,peak_mem_mb
+A_baseline,0,False,False,,False,False,fp16,8,100,44.95,177.97,175.06,185.82,99.32,103.16,1.32,39.76,33.28,5735.3
+B_workers8,8,False,False,,False,False,fp16,8,100,47.69,167.76,166.35,174.65,2.74,3.45,1.17,40.09,33.6,5738.2
+C_pin_memory,0,True,False,,False,False,fp16,8,100,44.63,179.24,175.54,187.05,101.1,106.04,0.59,40.11,33.08,5737.7
+D_persistent_workers,0,False,True,,False,False,fp16,8,100,44.81,178.55,174.75,183.05,100.1,102.14,1.32,40.06,32.62,5736.2
+E_prefetch,4,False,False,2,False,False,fp16,8,100,47.62,168.01,167.01,174.84,2.89,3.63,1.16,40.43,33.53,5735.9
+F_non_blocking,0,True,False,,True,False,fp16,8,100,44.97,177.89,175.27,181.84,100.13,104.91,0.51,40.06,32.83,5736.1
+G_amp_fp16,0,False,False,,False,True,fp16,8,100,42.34,188.96,186.16,194.38,99.21,104.11,1.33,45.6,38.27,5763.0
+H_amp_bf16,0,False,False,,False,True,bf16,8,100,43.82,182.57,182.3,189.98,96.92,103.4,1.33,43.9,35.84,5750.5
+opt_all,8,True,True,2,True,True,bf16,8,100,45.51,175.79,175.07,178.78,0.26,0.3,0.52,46.46,35.8,5752.0

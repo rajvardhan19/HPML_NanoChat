@@ -1,0 +1,18 @@
+{
+  "batch_size": 8,
+  "steps_timed": 20,
+  "clip_fwd_mean_ms": 12.5,
+  "clip_fwd_p95_ms": 21.59,
+  "proj_mlp_mean_ms": 0.46,
+  "gpt_xattn_mean_ms": 38.26,
+  "loss_mean_ms": 1.9,
+  "backward_mean_ms": 48.11,
+  "total_fwd_mean_ms": 53.12,
+  "total_iter_mean_ms": 101.24,
+  "throughput_sps": 79.0,
+  "peak_mem_mb": 5739.4,
+  "vision_encoder_mb": 349.824,
+  "vision_projection_mb": 9.452544,
+  "cross_attn_mb": 37.773312,
+  "gpt_mb": 1035.144776
+}

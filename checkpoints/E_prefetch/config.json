@@ -1,0 +1,58 @@
+{
+  "model": {
+    "n_layer": 12,
+    "n_head": 12,
+    "n_embd": 768,
+    "vocab_size": 50257,
+    "dropout": 0.0,
+    "bias": true,
+    "max_caption_len": 128,
+    "clip_model_name": "openai/clip-vit-base-patch32",
+    "freeze_vision": true,
+    "cross_attn_layers": [
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  "data": {
+    "data_root": "data/coco",
+    "train_ann_file": "annotations/captions_train2017.json",
+    "val_ann_file": "annotations/captions_val2017.json",
+    "train_image_dir": "train2017",
+    "val_image_dir": "val2017",
+    "max_caption_len": 128,
+    "max_train_samples": null,
+    "max_val_samples": null,
+    "batch_size": 8,
+    "num_workers": 4,
+    "pin_memory": false,
+    "persistent_workers": false,
+    "prefetch_factor": 2,
+    "non_blocking_h2d": false
+  },
+  "train": {
+    "experiment_name": "E_prefetch",
+    "output_dir": "checkpoints",
+    "num_epochs": 1,
+    "lr": 0.0003,
+    "weight_decay": 0.1,
+    "warmup_steps": 200,
+    "grad_clip": 1.0,
+    "seed": 42,
+    "device": "cuda",
+    "use_amp": false,
+    "amp_dtype": "fp16",
+    "gradient_checkpointing": false,
+    "compile_model": false,
+    "use_sdpa": true,
+    "use_wandb": false,
+    "wandb_project": "nanochat-v",
+    "wandb_entity": null,
+    "profile_steps": 0,
+    "log_interval": 10,
+    "benchmark_only": true,
+    "benchmark_steps": 100
+  }
+}

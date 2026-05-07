@@ -1,0 +1,146 @@
+2026-05-05 05:56:49,295 - httpx - [32m[1mINFO[0m - HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-base-patch32/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-05-05 05:56:49,343 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-05-05 05:56:49,402 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/chat_template.json "HTTP/1.1 404 Not Found"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-05-05 05:56:49,402 - huggingface_hub.utils._http - [33m[1mWARNING[0m - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-05-05 05:56:49,456 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
+2026-05-05 05:56:49,505 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/audio_tokenizer_config.json "HTTP/1.1 404 Not Found"
+2026-05-05 05:56:49,552 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-05-05 05:56:49,597 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-05 05:56:49,613 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/openai/clip-vit-base-patch32/3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268/preprocessor_config.json "HTTP/1.1 200 OK"
+2026-05-05 05:56:49,661 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-05-05 05:56:49,708 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-05 05:56:49,723 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/openai/clip-vit-base-patch32/3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268/preprocessor_config.json "HTTP/1.1 200 OK"
+2026-05-05 05:56:49,770 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-05 05:56:49,786 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/openai/clip-vit-base-patch32/3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268/config.json "HTTP/1.1 200 OK"
+2026-05-05 05:56:49,845 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-05 05:56:49,861 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/openai/clip-vit-base-patch32/3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-05-05 05:56:49,910 - httpx - [32m[1mINFO[0m - HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-base-patch32/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-05-05 05:56:49,964 - httpx - [32m[1mINFO[0m - HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-base-patch32/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-05-05 05:56:50,177 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/gpt2/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-05-05 05:56:50,224 - httpx - [32m[1mINFO[0m - HTTP Request: GET https://huggingface.co/api/models/gpt2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-05-05 05:56:50,271 - httpx - [32m[1mINFO[0m - HTTP Request: GET https://huggingface.co/api/models/openai-community/gpt2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-05-05 05:56:50,318 - httpx - [32m[1mINFO[0m - HTTP Request: GET https://huggingface.co/api/models/gpt2/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-05-05 05:56:50,368 - httpx - [32m[1mINFO[0m - HTTP Request: GET https://huggingface.co/api/models/openai-community/gpt2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+======================================================================
+NanoChat-V Profiling Suite
+  device=cuda  output=results/profiling
+  GPU: NVIDIA L4  SM=8.9  VRAM=22573 MB
+======================================================================
+
+[DataLoader Sweep]
+  num_workers_list: [0, 1, 2, 4, 8]
+  batch_sizes:      [4, 8, 16, 32]
+  num_workers=0  batch_size=4 … → 46.7ms  86 imgs/s
+  num_workers=0  batch_size=8 … → 95.0ms  84 imgs/s
+  num_workers=0  batch_size=16 … → 195.1ms  82 imgs/s
+  num_workers=0  batch_size=32 … → 388.6ms  82 imgs/s
+  num_workers=1  batch_size=4 … → 50.6ms  79 imgs/s
+  num_workers=1  batch_size=8 … → 100.7ms  79 imgs/s
+  num_workers=1  batch_size=16 … → 200.7ms  80 imgs/s
+  num_workers=1  batch_size=32 … → 404.5ms  79 imgs/s
+  num_workers=2  batch_size=4 … → 31.3ms  128 imgs/s
+  num_workers=2  batch_size=8 … → 50.7ms  158 imgs/s
+  num_workers=2  batch_size=16 … → 105.1ms  152 imgs/s
+  num_workers=2  batch_size=32 … → 200.0ms  160 imgs/s
+  num_workers=4  batch_size=4 … → 15.7ms  254 imgs/s
+  num_workers=4  batch_size=8 … → 29.8ms  268 imgs/s
+  num_workers=4  batch_size=16 … → 54.2ms  295 imgs/s
+  num_workers=4  batch_size=32 … → 116.7ms  274 imgs/s
+  num_workers=8  batch_size=4 … → 11.0ms  365 imgs/s
+  num_workers=8  batch_size=8 … → 22.2ms  360 imgs/s
+  num_workers=8  batch_size=16 … → 48.3ms  332 imgs/s
+  num_workers=8  batch_size=32 …2026-05-05 05:59:28,929 - httpx - [32m[1mINFO[0m - HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-base-patch32/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-05-05 05:59:28,978 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-05-05 05:59:29,025 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/chat_template.json "HTTP/1.1 404 Not Found"
+2026-05-05 05:59:29,074 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
+2026-05-05 05:59:29,120 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/audio_tokenizer_config.json "HTTP/1.1 404 Not Found"
+2026-05-05 05:59:29,168 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-05-05 05:59:29,216 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-05 05:59:29,234 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/openai/clip-vit-base-patch32/3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268/preprocessor_config.json "HTTP/1.1 200 OK"
+2026-05-05 05:59:29,283 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-05-05 05:59:29,329 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-05 05:59:29,346 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/openai/clip-vit-base-patch32/3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268/preprocessor_config.json "HTTP/1.1 200 OK"
+2026-05-05 05:59:29,395 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-05 05:59:29,411 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/openai/clip-vit-base-patch32/3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268/config.json "HTTP/1.1 200 OK"
+2026-05-05 05:59:29,468 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-05 05:59:29,485 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/openai/clip-vit-base-patch32/3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-05-05 05:59:29,532 - httpx - [32m[1mINFO[0m - HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-base-patch32/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-05-05 05:59:29,580 - httpx - [32m[1mINFO[0m - HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-base-patch32/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-05-05 05:59:29,783 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/gpt2/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-05-05 05:59:29,832 - httpx - [32m[1mINFO[0m - HTTP Request: GET https://huggingface.co/api/models/gpt2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-05-05 05:59:29,884 - httpx - [32m[1mINFO[0m - HTTP Request: GET https://huggingface.co/api/models/openai-community/gpt2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-05-05 05:59:30,049 - httpx - [32m[1mINFO[0m - HTTP Request: GET https://huggingface.co/api/models/gpt2/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-05-05 05:59:30,098 - httpx - [32m[1mINFO[0m - HTTP Request: GET https://huggingface.co/api/models/openai-community/gpt2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-05-05 05:59:37,302 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-05 05:59:37,319 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/openai/clip-vit-base-patch32/3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268/config.json "HTTP/1.1 200 OK"
+2026-05-05 05:59:37,372 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2026-05-05 05:59:37,422 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+2026-05-05 05:59:37,468 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/pytorch_model.bin "HTTP/1.1 302 Found"
+2026-05-05 05:59:37,516 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2026-05-05 05:59:37,567 - httpx - [32m[1mINFO[0m - HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-base-patch32 "HTTP/1.1 200 OK"
+2026-05-05 05:59:37,633 - httpx - [32m[1mINFO[0m - HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-base-patch32/commits/main "HTTP/1.1 200 OK"
+2026-05-05 05:59:37,703 - httpx - [32m[1mINFO[0m - HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-base-patch32/discussions?p=0 "HTTP/1.1 200 OK"
+2026-05-05 05:59:37,820 - httpx - [32m[1mINFO[0m - HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-base-patch32/commits/refs%2Fpr%2F66 "HTTP/1.1 200 OK"
+2026-05-05 05:59:37,877 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/refs%2Fpr%2F66/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+2026-05-05 05:59:37,924 - httpx - [32m[1mINFO[0m - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/refs%2Fpr%2F66/model.safetensors "HTTP/1.1 302 Found"
+ → 89.9ms  356 imgs/s
+
+  Saved → results/profiling/dataloader_sweep.csv
+
+[Component Timing]  batch_size=8  steps=20
+Padding vocab_size from 50257 to 50304 for efficiency
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 23953.69it/s]
+[transformers] [1mCLIPVisionModel LOAD REPORT[0m from: openai/clip-vit-base-patch32
+Key                                                          | Status     |  | 
+-------------------------------------------------------------+------------+--+-
+text_model.encoder.layers.{0...11}.mlp.fc2.weight            | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.v_proj.bias     | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.layer_norm1.bias          | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.layer_norm2.bias          | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.k_proj.bias     | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.k_proj.weight   | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.layer_norm2.weight        | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.layer_norm1.weight        | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.q_proj.bias     | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.out_proj.bias   | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.v_proj.weight   | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.mlp.fc1.bias              | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.mlp.fc1.weight            | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.q_proj.weight   | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.out_proj.weight | UNEXPECTED |  | 
+logit_scale                                                  | UNEXPECTED |  | 
+text_projection.weight                                       | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.mlp.fc2.bias              | UNEXPECTED |  | 
+text_model.embeddings.token_embedding.weight                 | UNEXPECTED |  | 
+text_model.final_layer_norm.weight                           | UNEXPECTED |  | 
+text_model.embeddings.position_embedding.weight              | UNEXPECTED |  | 
+visual_projection.weight                                     | UNEXPECTED |  | 
+text_model.final_layer_norm.bias                             | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+  Profiler trace saved → results/profiling/profiler_trace
+
+  Component timing (mean over 20 steps):
+    CLIP forward:         12.50 ms  (24% of fwd)
+    Projection MLP:        0.46 ms  (1% of fwd)
+    GPT + cross-attn:     38.26 ms  (72% of fwd)
+    Loss:                  1.90 ms
+    Backward:             48.11 ms
+    ── Total fwd:         53.12 ms
+    ── Total iter:       101.24 ms
+    Throughput:         79.0 sps
+    Peak GPU memory:    5739 MB
+
+  Parameter memory (FP32 equivalent):
+    vision_encoder_mb              349.8 MB
+    vision_projection_mb             9.5 MB
+    cross_attn_mb                   37.8 MB
+    gpt_mb                        1035.1 MB
+
+  Saved → results/profiling/component_timing.json
+
+Profiling complete.  Results in: results/profiling/
+  → Open TensorBoard to view CUDA kernel trace:
+    tensorboard --logdir results/profiling/profiler_trace

@@ -1,0 +1,7 @@
+experiment,batch_size,max_new_tokens,lat_mean_ms,lat_p50_ms,lat_p95_ms,tokens_per_sec
+A_baseline,1,32,570.37,568.52,589.07,56.1
+A_baseline,4,32,576.92,574.79,597.32,221.9
+A_baseline,16,32,626.16,623.96,647.67,817.7
+opt_all,1,32,573.54,571.41,594.27,55.8
+opt_all,4,32,576.95,575.76,593.71,221.9
+opt_all,16,32,627.5,625.04,645.04,815.9

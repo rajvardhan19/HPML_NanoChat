@@ -1,0 +1,2 @@
+epoch,global_step,val_loss,val_ppl,num_batches
+0,14786,2.728971227758019,15.31712108252158,625

@@ -1,0 +1,33 @@
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/DHANU/HPML_Project/nanochat/vision/train_vision.py", line 985, in <module>
+    main()
+  File "/home/DHANU/HPML_Project/nanochat/vision/train_vision.py", line 981, in main
+    train(args)
+  File "/home/DHANU/HPML_Project/nanochat/vision/train_vision.py", line 525, in train
+    exp_dir = make_experiment_dir(cfg.train.output_dir, cfg.train.experiment_name,
+  File "/home/DHANU/HPML_Project/nanochat/vision/utils.py", line 372, in make_experiment_dir
+    raise FileExistsError(
+FileExistsError: Experiment directory already exists: checkpoints/A_baseline
+Pass --resume to continue training from that checkpoint.
+
+[GCP / GPU Environment]
+  Python  : 3.10.12
+  PyTorch : 2.9.1+cu128
+  CUDA available: True
+  GPU name : NVIDIA L4
+  SM       : 8.9  (Ampere+)
+  VRAM     : 22.0 GB
+  BF16 ok  : True
+  CUDA ver : 12.8
+  SDPA/Flash: AVAILABLE
+======================================================================
+NanoChat-V Training: A_baseline
+  device=cuda  AMP=False (fp16)
+  compile=False  workers=0
+  pin_memory=False  non_blocking=False
+  GPU: NVIDIA L4  SM=8.9  VRAM=22573 MB
+======================================================================
